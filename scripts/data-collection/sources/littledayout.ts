@@ -27,7 +27,7 @@ export async function parseLittleDayOutList(): Promise<RawCandidate[]> {
 
     // Little Day Out typically lists venues in article/list format
     // This selector may need adjustment based on actual page structure
-    $("article, .entry-content li, .venue-item, .location-item").each((_, el) => {
+    $("article, .entry-content li, .venue-item, .location-item").each((_: any, el: any) => {
         const $el = $(el);
 
         // Try to extract venue name

@@ -178,7 +178,7 @@ export async function crawl(
 /**
  * Parse HTML with Cheerio
  */
-export function parseHtml(html: string): cheerio.CheerioAPI {
+export function parseHtml(html: string): any {
     return cheerio.load(html);
 }
 
@@ -187,7 +187,7 @@ export function parseHtml(html: string): cheerio.CheerioAPI {
  */
 export async function crawlAndParse(
     url: string
-): Promise<cheerio.CheerioAPI | null> {
+): Promise<any | null> {
     const result = await crawl(url);
     if (!result) return null;
     return parseHtml(result.html);
@@ -207,7 +207,7 @@ export async function extractLinks(
     const links: string[] = [];
     const baseUrl = new URL(url).origin;
 
-    $(selector).each((_, el) => {
+    $(selector).each((_: number, el: any) => {
         const href = $(el).attr("href");
         if (!href) return;
 
