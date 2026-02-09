@@ -1,0 +1,6386 @@
+{
+  "locations": [
+    {
+      "id": "changi-t1-departure-hall",
+      "venueName": "Changi Airport Terminal 1",
+      "venueType": "mall",
+      "addressText": "80 Airport Boulevard, Singapore, 819642",
+      "lat": 1.3644,
+      "lng": 103.9915,
+      "floor": "Departure Hall",
+      "landmark": "Near Gate C",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.changiairport.com/en/at-changi/facilities-services/baby-care.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "changi-t2-departure-hall",
+      "venueName": "Changi Airport Terminal 2",
+      "venueType": "mall",
+      "addressText": "60 Airport Boulevard, Singapore, 819643",
+      "lat": 1.3526,
+      "lng": 103.9893,
+      "floor": "Departure Hall",
+      "landmark": "Near Gate F",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.changiairport.com/en/at-changi/facilities-services/baby-care.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "changi-t3-departure-hall",
+      "venueName": "Changi Airport Terminal 3",
+      "venueType": "mall",
+      "addressText": "65 Airport Boulevard, Singapore, 819663",
+      "lat": 1.3564,
+      "lng": 103.9862,
+      "floor": "Departure Hall",
+      "landmark": "Near Gate A",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.changiairport.com/en/at-changi/facilities-services/baby-care.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "changi-t4-departure-hall",
+      "venueName": "Changi Airport Terminal 4",
+      "venueType": "mall",
+      "addressText": "10 Airport Boulevard, Singapore, 819665",
+      "lat": 1.3433,
+      "lng": 103.9822,
+      "floor": "Departure Hall Level 2",
+      "landmark": "Near Heritage Zone",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.changiairport.com/en/at-changi/facilities-services/baby-care.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jewel-changi-l1",
+      "venueName": "Jewel Changi Airport",
+      "venueType": "mall",
+      "addressText": "78 Airport Boulevard, Singapore, 819666",
+      "lat": 1.3603,
+      "lng": 103.9893,
+      "floor": "L1",
+      "landmark": "Near HSBC Rain Vortex",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.jewelchangiairport.com/en/visitor-services.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ion-orchard-b4",
+      "venueName": "ION Orchard",
+      "venueType": "mall",
+      "addressText": "2 Orchard Turn, Singapore, 238801",
+      "lat": 1.304,
+      "lng": 103.8318,
+      "floor": "B4",
+      "landmark": "Near Food Opera",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ionorchard.com/en/guest-services.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "takashimaya-b2",
+      "venueName": "Ngee Ann City / Takashimaya",
+      "venueType": "mall",
+      "addressText": "391 Orchard Road, Singapore, 238872",
+      "lat": 1.303,
+      "lng": 103.8335,
+      "floor": "B2",
+      "landmark": "Near Children's section",
+      "hours": "10:00 - 21:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ngeeanncity.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "paragon-l4",
+      "venueName": "Paragon",
+      "venueType": "mall",
+      "addressText": "290 Orchard Road, Singapore, 238859",
+      "lat": 1.3038,
+      "lng": 103.8356,
+      "floor": "L4",
+      "landmark": "Near children's stores",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.paragon.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "313-somerset-l3",
+      "venueName": "313@Somerset",
+      "venueType": "mall",
+      "addressText": "313 Orchard Road, Singapore, 238895",
+      "lat": 1.301,
+      "lng": 103.8386,
+      "floor": "L3",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.313somerset.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mbs-shoppes-b2",
+      "venueName": "Marina Bay Sands Shoppes",
+      "venueType": "mall",
+      "addressText": "2 Bayfront Avenue, Singapore, 018972",
+      "lat": 1.2839,
+      "lng": 103.8591,
+      "floor": "B2",
+      "landmark": "Near Food Court",
+      "hours": "10:30 - 23:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.marinabaysands.com/shopping.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "gardens-bay-visitor-centre",
+      "venueName": "Gardens by the Bay",
+      "venueType": "attraction",
+      "addressText": "18 Marina Gardens Drive, Singapore, 018953",
+      "lat": 1.2816,
+      "lng": 103.8636,
+      "floor": "L1",
+      "landmark": "Visitor Centre",
+      "hours": "09:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.gardensbythebay.com.sg/en/plan-your-visit.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "artscience-museum-l1",
+      "venueName": "ArtScience Museum",
+      "venueType": "attraction",
+      "addressText": "6 Bayfront Avenue, Singapore, 018974",
+      "lat": 1.2863,
+      "lng": 103.8593,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.marinabaysands.com/museum/visitor-information.html",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "vivocity-b2",
+      "venueName": "VivoCity",
+      "venueType": "mall",
+      "addressText": "1 HarbourFront Walk, Singapore, 098585",
+      "lat": 1.2644,
+      "lng": 103.8223,
+      "floor": "B2",
+      "landmark": "Near Toys 'R' Us",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.vivocity.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.146Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.146Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "vivocity-l2",
+      "venueName": "VivoCity",
+      "venueType": "mall",
+      "addressText": "1 HarbourFront Walk, Singapore, 098585",
+      "lat": 1.2644,
+      "lng": 103.8223,
+      "floor": "L2",
+      "landmark": "Near playground",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.vivocity.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "uss-entrance",
+      "venueName": "Universal Studios Singapore",
+      "venueType": "attraction",
+      "addressText": "8 Sentosa Gateway, Singapore, 098269",
+      "lat": 1.254,
+      "lng": 103.8238,
+      "floor": "Ground",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 18:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.rwsentosa.com/en/attractions/universal-studios-singapore/guest-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "sea-aquarium",
+      "venueName": "S.E.A. Aquarium",
+      "venueType": "attraction",
+      "addressText": "8 Sentosa Gateway, Singapore, 098269",
+      "lat": 1.2589,
+      "lng": 103.8194,
+      "floor": "Ground",
+      "landmark": "Near exit",
+      "hours": "10:00 - 17:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.rwsentosa.com/en/attractions/sea-aquarium/guest-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "westgate-l2",
+      "venueName": "Westgate",
+      "venueType": "mall",
+      "addressText": "3 Gateway Drive, Singapore, 608532",
+      "lat": 1.3346,
+      "lng": 103.7427,
+      "floor": "L2",
+      "landmark": "Near children's section",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/westgate/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jem-l3",
+      "venueName": "JEM",
+      "venueType": "mall",
+      "addressText": "50 Jurong Gateway Road, Singapore, 608549",
+      "lat": 1.3335,
+      "lng": 103.743,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.jem.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jurong-point-jp2-l2",
+      "venueName": "Jurong Point",
+      "venueType": "mall",
+      "addressText": "1 Jurong West Central 2, Singapore, 648886",
+      "lat": 1.3397,
+      "lng": 103.7067,
+      "floor": "L2",
+      "landmark": "JP2 Wing",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.jurongpoint.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "causeway-point-l4",
+      "venueName": "Causeway Point",
+      "venueType": "mall",
+      "addressText": "1 Woodlands Square, Singapore, 738099",
+      "lat": 1.4362,
+      "lng": 103.7864,
+      "floor": "L4",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.causewaypoint.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "northpoint-city-north-l2",
+      "venueName": "Northpoint City",
+      "venueType": "mall",
+      "addressText": "930 Yishun Avenue 2, Singapore, 769098",
+      "lat": 1.4295,
+      "lng": 103.8358,
+      "floor": "L2",
+      "landmark": "North Wing",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.frasersproperty.com/en/asia/retail/singapore/northpoint-city.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "compass-one-l3",
+      "venueName": "Compass One",
+      "venueType": "mall",
+      "addressText": "1 Sengkang Square, Singapore, 545078",
+      "lat": 1.3923,
+      "lng": 103.8954,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.compassone.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "waterway-point-l2",
+      "venueName": "Waterway Point",
+      "venueType": "mall",
+      "addressText": "83 Punggol Central, Singapore, 828761",
+      "lat": 1.4074,
+      "lng": 103.9024,
+      "floor": "L2",
+      "landmark": "East Wing",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.frasersproperty.com/en/asia/retail/singapore/waterway-point.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "nex-l3",
+      "venueName": "NEX",
+      "venueType": "mall",
+      "addressText": "23 Serangoon Central, Singapore, 556083",
+      "lat": 1.3507,
+      "lng": 103.8723,
+      "floor": "L3",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nex.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tampines-mall-l3",
+      "venueName": "Tampines Mall",
+      "venueType": "mall",
+      "addressText": "4 Tampines Central 5, Singapore, 529510",
+      "lat": 1.3529,
+      "lng": 103.945,
+      "floor": "L3",
+      "landmark": "Near children's section",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/tampinesmall/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tampines-1-l3",
+      "venueName": "Tampines 1",
+      "venueType": "mall",
+      "addressText": "10 Tampines Central 1, Singapore, 529536",
+      "lat": 1.354,
+      "lng": 103.9432,
+      "floor": "L3",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.tampines1.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "downtown-east-l1",
+      "venueName": "Downtown East",
+      "venueType": "mall",
+      "addressText": "1 Pasir Ris Close, Singapore, 519599",
+      "lat": 1.3772,
+      "lng": 103.9555,
+      "floor": "L1",
+      "landmark": "E!Hub",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.downtowneast.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "kkh-main-l1",
+      "venueName": "KK Women's and Children's Hospital",
+      "venueType": "other",
+      "addressText": "100 Bukit Timah Road, Singapore, 229899",
+      "lat": 1.3109,
+      "lng": 103.8462,
+      "floor": "L1",
+      "landmark": "Main Building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.kkh.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "nuh-main-b1",
+      "venueName": "National University Hospital",
+      "venueType": "other",
+      "addressText": "5 Lower Kent Ridge Road, Singapore, 119074",
+      "lat": 1.2937,
+      "lng": 103.7832,
+      "floor": "B1",
+      "landmark": "Main Building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nuh.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "sgh-main-b1",
+      "venueName": "Singapore General Hospital",
+      "venueType": "other",
+      "addressText": "Outram Road, Singapore, 169608",
+      "lat": 1.2796,
+      "lng": 103.8365,
+      "floor": "B1",
+      "landmark": "Main Building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.sgh.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "thomson-medical-l1",
+      "venueName": "Thomson Medical Centre",
+      "venueType": "other",
+      "addressText": "339 Thomson Road, Singapore, 307677",
+      "lat": 1.3277,
+      "lng": 103.8424,
+      "floor": "L1",
+      "landmark": "Main lobby",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.thomsonmedical.com",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "singapore-zoo-entrance",
+      "venueName": "Singapore Zoo",
+      "venueType": "attraction",
+      "addressText": "80 Mandai Lake Road, Singapore, 729826",
+      "lat": 1.4043,
+      "lng": 103.793,
+      "floor": "Ground",
+      "landmark": "Near entrance",
+      "hours": "08:30 - 18:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.mandai.com/en/singapore-zoo/plan-your-visit.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "river-wonders-entrance",
+      "venueName": "River Wonders",
+      "venueType": "attraction",
+      "addressText": "80 Mandai Lake Road, Singapore, 729826",
+      "lat": 1.4027,
+      "lng": 103.7891,
+      "floor": "Ground",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.mandai.com/en/river-wonders/plan-your-visit.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bird-paradise-entrance",
+      "venueName": "Bird Paradise",
+      "venueType": "attraction",
+      "addressText": "20 Mandai Lake Road, Singapore, 729825",
+      "lat": 1.4047,
+      "lng": 103.7885,
+      "floor": "Ground",
+      "landmark": "Near entrance",
+      "hours": "09:00 - 18:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.mandai.com/en/bird-paradise/plan-your-visit.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "night-safari-entrance",
+      "venueName": "Night Safari",
+      "venueType": "attraction",
+      "addressText": "80 Mandai Lake Road, Singapore, 729826",
+      "lat": 1.4024,
+      "lng": 103.7888,
+      "floor": "Ground",
+      "landmark": "Near entrance",
+      "hours": "18:30 - 00:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.mandai.com/en/night-safari/plan-your-visit.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "science-centre-l1",
+      "venueName": "Science Centre Singapore",
+      "venueType": "attraction",
+      "addressText": "15 Science Centre Road, Singapore, 609081",
+      "lat": 1.3331,
+      "lng": 103.7365,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 17:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.science.edu.sg/visit-us",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "suntec-city-l1",
+      "venueName": "Suntec City",
+      "venueType": "mall",
+      "addressText": "3 Temasek Boulevard, Singapore, 038983",
+      "lat": 1.2943,
+      "lng": 103.8576,
+      "floor": "L1",
+      "landmark": "Near Convention Centre",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.sunteccity.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "raffles-city-b1",
+      "venueName": "Raffles City Shopping Centre",
+      "venueType": "mall",
+      "addressText": "252 North Bridge Road, Singapore, 179103",
+      "lat": 1.2938,
+      "lng": 103.8525,
+      "floor": "B1",
+      "landmark": "Near MRT link",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/rafflescity/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "funan-l3",
+      "venueName": "Funan",
+      "venueType": "mall",
+      "addressText": "107 North Bridge Road, Singapore, 179105",
+      "lat": 1.2914,
+      "lng": 103.8498,
+      "floor": "L3",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/funan/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bugis-junction-l2",
+      "venueName": "Bugis Junction",
+      "venueType": "mall",
+      "addressText": "200 Victoria Street, Singapore, 188021",
+      "lat": 1.2992,
+      "lng": 103.8554,
+      "floor": "L2",
+      "landmark": "Near BHG",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/bugisjunction/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "plaza-singapura-l5",
+      "venueName": "Plaza Singapura",
+      "venueType": "mall",
+      "addressText": "68 Orchard Road, Singapore, 238839",
+      "lat": 1.3008,
+      "lng": 103.8451,
+      "floor": "L5",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/plazasingapura/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "great-world-l2",
+      "venueName": "Great World",
+      "venueType": "mall",
+      "addressText": "1 Kim Seng Promenade, Singapore, 237994",
+      "lat": 1.2899,
+      "lng": 103.8313,
+      "floor": "L2",
+      "landmark": "Near children's play area",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.greatworld.com.sg/visitor-services",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "amk-hub-l3",
+      "venueName": "AMK Hub",
+      "venueType": "mall",
+      "addressText": "53 Ang Mo Kio Avenue 3, Singapore, 569933",
+      "lat": 1.3689,
+      "lng": 103.8484,
+      "floor": "L3",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/amkhub/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "junction-8-l3",
+      "venueName": "Junction 8",
+      "venueType": "mall",
+      "addressText": "9 Bishan Place, Singapore, 579837",
+      "lat": 1.3505,
+      "lng": 103.8485,
+      "floor": "L3",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/junction8/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "lot-one-l4",
+      "venueName": "Lot One Shoppers' Mall",
+      "venueType": "mall",
+      "addressText": "21 Choa Chu Kang Avenue 4, Singapore, 689812",
+      "lat": 1.3851,
+      "lng": 103.7445,
+      "floor": "L4",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/lotone/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tiong-bahru-plaza-l3",
+      "venueName": "Tiong Bahru Plaza",
+      "venueType": "mall",
+      "addressText": "302 Tiong Bahru Road, Singapore, 168732",
+      "lat": 1.286,
+      "lng": 103.827,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.tiongbahruplaza.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bukit-panjang-plaza-l2",
+      "venueName": "Bukit Panjang Plaza",
+      "venueType": "mall",
+      "addressText": "1 Jelebu Road, Singapore, 677743",
+      "lat": 1.378,
+      "lng": 103.764,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.bukitpanjangplaza.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "hougang-mall-l2",
+      "venueName": "Hougang Mall",
+      "venueType": "mall",
+      "addressText": "90 Hougang Avenue 10, Singapore, 538766",
+      "lat": 1.3723,
+      "lng": 103.8935,
+      "floor": "L2",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.hougangmall.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bedok-mall-l2",
+      "venueName": "Bedok Mall",
+      "venueType": "mall",
+      "addressText": "311 New Upper Changi Road, Singapore, 467360",
+      "lat": 1.3245,
+      "lng": 103.9303,
+      "floor": "L2",
+      "landmark": "Near BHG",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/bedokmall/en.html",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "paya-lebar-quarter-l1",
+      "venueName": "Paya Lebar Quarter",
+      "venueType": "mall",
+      "addressText": "10 Paya Lebar Road, Singapore, 409057",
+      "lat": 1.3174,
+      "lng": 103.8924,
+      "floor": "L1",
+      "landmark": "Near PLQ Mall",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.payalebarquarter.com/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "city-square-mall-l3",
+      "venueName": "City Square Mall",
+      "venueType": "mall",
+      "addressText": "180 Kitchener Road, Singapore, 208539",
+      "lat": 1.3113,
+      "lng": 103.8567,
+      "floor": "L3",
+      "landmark": "Near playground",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.citysquaremall.com.sg/visitor-info",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.147Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.147Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "orchard-central-l2",
+      "venueName": "Orchard Central",
+      "venueType": "mall",
+      "addressText": "181 Orchard Road, Singapore, 238896",
+      "lat": 1.3001,
+      "lng": 103.8397,
+      "floor": "L2",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.orchardcentral.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "orchardgateway-l2",
+      "venueName": "OrchardGateway",
+      "venueType": "mall",
+      "addressText": "277 Orchard Road, Singapore, 238858",
+      "lat": 1.3008,
+      "lng": 103.8375,
+      "floor": "L2",
+      "landmark": "Near toilet",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.orchardgateway.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tanglin-mall-l2",
+      "venueName": "Tanglin Mall",
+      "venueType": "mall",
+      "addressText": "163 Tanglin Road, Singapore, 247933",
+      "lat": 1.3058,
+      "lng": 103.8241,
+      "floor": "L2",
+      "landmark": "Near children's stores",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.tanglinmall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "forum-shopping-mall-l2",
+      "venueName": "Forum The Shopping Mall",
+      "venueType": "mall",
+      "addressText": "583 Orchard Road, Singapore, 238884",
+      "lat": 1.3046,
+      "lng": 103.8287,
+      "floor": "L2",
+      "landmark": "Near Toys 'R' Us",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.forum.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "wheelock-place-b1",
+      "venueName": "Wheelock Place",
+      "venueType": "mall",
+      "addressText": "501 Orchard Road, Singapore, 238880",
+      "lat": 1.3047,
+      "lng": 103.8305,
+      "floor": "B1",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.wheelockplace.com",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "holland-village-mall-l2",
+      "venueName": "Raffles Holland V",
+      "venueType": "mall",
+      "addressText": "118 Holland Avenue, Singapore, 278997",
+      "lat": 1.3114,
+      "lng": 103.7962,
+      "floor": "L2",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.hollandvillage.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "clementi-mall-l3",
+      "venueName": "The Clementi Mall",
+      "venueType": "mall",
+      "addressText": "3155 Commonwealth Avenue West, Singapore, 129588",
+      "lat": 1.3148,
+      "lng": 103.7644,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.theclementimall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "west-mall-l2",
+      "venueName": "West Mall",
+      "venueType": "mall",
+      "addressText": "1 Bukit Batok Central Link, Singapore, 658713",
+      "lat": 1.3493,
+      "lng": 103.7497,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.westmall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "pioneer-mall-l2",
+      "venueName": "Pioneer Mall",
+      "venueType": "mall",
+      "addressText": "638 Jurong West Street 61, Singapore, 640638",
+      "lat": 1.3409,
+      "lng": 103.6979,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.pioneermall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "white-sands-l3",
+      "venueName": "White Sands",
+      "venueType": "mall",
+      "addressText": "1 Pasir Ris Central Street 3, Singapore, 518457",
+      "lat": 1.3726,
+      "lng": 103.9499,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.whitesands.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "eastpoint-mall-l2",
+      "venueName": "Eastpoint Mall",
+      "venueType": "mall",
+      "addressText": "3 Simei Street 6, Singapore, 528833",
+      "lat": 1.3437,
+      "lng": 103.9533,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.eastpointmall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "parkway-parade-l3",
+      "venueName": "Parkway Parade",
+      "venueType": "mall",
+      "addressText": "80 Marine Parade Road, Singapore, 449269",
+      "lat": 1.3019,
+      "lng": 103.9048,
+      "floor": "L3",
+      "landmark": "Near children's stores",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.parkwayparade.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "century-square-l2",
+      "venueName": "Century Square",
+      "venueType": "mall",
+      "addressText": "2 Tampines Central 5, Singapore, 529509",
+      "lat": 1.3527,
+      "lng": 103.9441,
+      "floor": "L2",
+      "landmark": "Near foodcourt",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.centurysquare.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "our-tampines-hub-l2",
+      "venueName": "Our Tampines Hub",
+      "venueType": "other",
+      "addressText": "1 Tampines Walk, Singapore, 528523",
+      "lat": 1.3531,
+      "lng": 103.94,
+      "floor": "L2",
+      "landmark": "Near library",
+      "hours": "08:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ourtampineshub.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "heartland-mall-kovan-l2",
+      "venueName": "Heartland Mall Kovan",
+      "venueType": "mall",
+      "addressText": "205 Hougang Street 21, Singapore, 530205",
+      "lat": 1.3602,
+      "lng": 103.8847,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.heartlandmall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "rivervale-mall-l2",
+      "venueName": "Rivervale Mall",
+      "venueType": "mall",
+      "addressText": "11 Rivervale Crescent, Singapore, 545082",
+      "lat": 1.392,
+      "lng": 103.9018,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.rivervalemall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "punggol-plaza-l2",
+      "venueName": "Punggol Plaza",
+      "venueType": "mall",
+      "addressText": "168 Punggol Field, Singapore, 820168",
+      "lat": 1.3996,
+      "lng": 103.9071,
+      "floor": "L2",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.punggolplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "greenwich-v-l2",
+      "venueName": "Greenwich V",
+      "venueType": "mall",
+      "addressText": "1 Seletar Road, Singapore, 807011",
+      "lat": 1.3875,
+      "lng": 103.8676,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.greenwichv.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "canberra-plaza-l2",
+      "venueName": "Canberra Plaza",
+      "venueType": "mall",
+      "addressText": "133 Canberra View, Singapore, 750133",
+      "lat": 1.443,
+      "lng": 103.829,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.canberraplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "sun-plaza-l3",
+      "venueName": "Sun Plaza",
+      "venueType": "mall",
+      "addressText": "30 Sembawang Drive, Singapore, 757713",
+      "lat": 1.4487,
+      "lng": 103.8202,
+      "floor": "L3",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.sunplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tampines-polyclinic-l1",
+      "venueName": "Tampines Polyclinic",
+      "venueType": "other",
+      "addressText": "1 Tampines Street 41, Singapore, 529203",
+      "lat": 1.3537,
+      "lng": 103.9468,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00 - 13:00, 14:00 - 16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singhealth.com.sg/rhs/polyclinics/tampines-polyclinic",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bedok-polyclinic-l1",
+      "venueName": "Bedok Polyclinic",
+      "venueType": "other",
+      "addressText": "212 Bedok North Street 1, Singapore, 460212",
+      "lat": 1.3285,
+      "lng": 103.9285,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00 - 13:00, 14:00 - 16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singhealth.com.sg/rhs/polyclinics/bedok-polyclinic",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "woodlands-polyclinic-l1",
+      "venueName": "Woodlands Polyclinic",
+      "venueType": "other",
+      "addressText": "10 Woodlands Street 31, Singapore, 738579",
+      "lat": 1.437,
+      "lng": 103.786,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00 - 13:00, 14:00 - 16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg/Our_Polyclinics/Woodlands_Polyclinic/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jurong-polyclinic-l1",
+      "venueName": "Jurong Polyclinic",
+      "venueType": "other",
+      "addressText": "190 Jurong East Avenue 1, Singapore, 609788",
+      "lat": 1.3331,
+      "lng": 103.7422,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00 - 13:00, 14:00 - 16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg/Our_Polyclinics/Jurong_Polyclinic/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ikea-tampines-l1",
+      "venueName": "IKEA Tampines",
+      "venueType": "mall",
+      "addressText": "60 Tampines North Drive 2, Singapore, 528764",
+      "lat": 1.3626,
+      "lng": 103.93,
+      "floor": "L1",
+      "landmark": "Near Småland",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ikea.com/sg/en/stores/tampines/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ikea-alexandra-l2",
+      "venueName": "IKEA Alexandra",
+      "venueType": "mall",
+      "addressText": "317 Alexandra Road, Singapore, 159965",
+      "lat": 1.2876,
+      "lng": 103.8064,
+      "floor": "L2",
+      "landmark": "Near Småland",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink",
+        "microwave"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ikea.com/sg/en/stores/alexandra/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "library-harbourfront-l3",
+      "venueName": "library@harbourfront",
+      "venueType": "other",
+      "addressText": "1 HarbourFront Walk, Singapore, 098585",
+      "lat": 1.2644,
+      "lng": 103.8223,
+      "floor": "L3",
+      "landmark": "Inside library",
+      "hours": "10:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg/main/visit-us/our-libraries-and-டிhives/libraries/library-harbourfront",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "library-orchard-l3",
+      "venueName": "library@orchard",
+      "venueType": "other",
+      "addressText": "277 Orchard Road, Singapore, 238858",
+      "lat": 1.3008,
+      "lng": 103.8375,
+      "floor": "L3",
+      "landmark": "Inside library",
+      "hours": "11:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg/main/visit-us/our-libraries-and-archives/libraries/library-orchard",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "central-public-library-l1",
+      "venueName": "Central Public Library",
+      "venueType": "other",
+      "addressText": "100 Victoria Street, Singapore, 188064",
+      "lat": 1.2969,
+      "lng": 103.8543,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg/main/visit-us/our-libraries-and-archives/libraries/central-public-library",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tampines-regional-library-l4",
+      "venueName": "Tampines Regional Library",
+      "venueType": "other",
+      "addressText": "1 Tampines Walk, Singapore, 528523",
+      "lat": 1.3531,
+      "lng": 103.94,
+      "floor": "L4",
+      "landmark": "Inside library",
+      "hours": "10:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg/main/visit-us/our-libraries-and-archives/libraries/tampines-regional-library",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "national-museum-l1",
+      "venueName": "National Museum of Singapore",
+      "venueType": "attraction",
+      "addressText": "93 Stamford Road, Singapore, 178897",
+      "lat": 1.2966,
+      "lng": 103.8485,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhb.gov.sg/nationalmuseum/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "acm-l1",
+      "venueName": "Asian Civilisations Museum",
+      "venueType": "attraction",
+      "addressText": "1 Empress Place, Singapore, 179555",
+      "lat": 1.2877,
+      "lng": 103.8514,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhb.gov.sg/acm/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "sam-l1",
+      "venueName": "Singapore Art Museum",
+      "venueType": "attraction",
+      "addressText": "71 Bras Basah Road, Singapore, 189555",
+      "lat": 1.2972,
+      "lng": 103.8507,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singaporeartmuseum.sg/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "singapore-flyer-l1",
+      "venueName": "Singapore Flyer",
+      "venueType": "attraction",
+      "addressText": "30 Raffles Avenue, Singapore, 039803",
+      "lat": 1.2893,
+      "lng": 103.8631,
+      "floor": "L1",
+      "landmark": "Terminal building",
+      "hours": "08:30 - 22:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singaporeflyer.com/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "kidzania-l3",
+      "venueName": "KidZania Singapore",
+      "venueType": "attraction",
+      "addressText": "31 Beach View, Singapore, 098008",
+      "lat": 1.2576,
+      "lng": 103.8184,
+      "floor": "L3",
+      "landmark": "Inside KidZania",
+      "hours": "10:00 - 18:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.kidzania.com.sg/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "adventure-cove-l1",
+      "venueName": "Adventure Cove Waterpark",
+      "venueType": "attraction",
+      "addressText": "8 Sentosa Gateway, Singapore, 098269",
+      "lat": 1.2565,
+      "lng": 103.8193,
+      "floor": "Ground",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 17:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.rwsentosa.com/en/attractions/adventure-cove-waterpark/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "snow-city-l1",
+      "venueName": "Snow City Singapore",
+      "venueType": "attraction",
+      "addressText": "21 Jurong Town Hall Road, Singapore, 609433",
+      "lat": 1.3328,
+      "lng": 103.7381,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 18:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.snowcity.com.sg/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-orchard-b2",
+      "venueName": "Orchard MRT Station",
+      "venueType": "other",
+      "addressText": "437 Orchard Road, Singapore, 238878",
+      "lat": 1.3044,
+      "lng": 103.8319,
+      "floor": "B2",
+      "landmark": "Near exit A",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-tampines-b1",
+      "venueName": "Tampines MRT Station",
+      "venueType": "other",
+      "addressText": "20 Tampines Central 1, Singapore, 529538",
+      "lat": 1.3543,
+      "lng": 103.945,
+      "floor": "B1",
+      "landmark": "Near exit C",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-jurong-east-b1",
+      "venueName": "Jurong East MRT Station",
+      "venueType": "other",
+      "addressText": "10 Jurong East Street 12, Singapore, 609690",
+      "lat": 1.3333,
+      "lng": 103.7422,
+      "floor": "B1",
+      "landmark": "Near exit A",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-woodlands-b1",
+      "venueName": "Woodlands MRT Station",
+      "venueType": "other",
+      "addressText": "30 Woodlands Avenue 2, Singapore, 738343",
+      "lat": 1.437,
+      "lng": 103.7865,
+      "floor": "B1",
+      "landmark": "Paid area",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-serangoon-b1",
+      "venueName": "Serangoon MRT Station",
+      "venueType": "other",
+      "addressText": "1 Serangoon Central, Singapore, 556083",
+      "lat": 1.3507,
+      "lng": 103.8723,
+      "floor": "B1",
+      "landmark": "Near exit C",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.148Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.148Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "millenia-walk-l1",
+      "venueName": "Millenia Walk",
+      "venueType": "mall",
+      "addressText": "9 Raffles Boulevard, Singapore, 039596",
+      "lat": 1.2918,
+      "lng": 103.8601,
+      "floor": "L1",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.milleniawalk.com",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "marina-square-l2",
+      "venueName": "Marina Square",
+      "venueType": "mall",
+      "addressText": "6 Raffles Boulevard, Singapore, 039594",
+      "lat": 1.2915,
+      "lng": 103.8577,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.marinasquare.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "esplanade-l1",
+      "venueName": "Esplanade - Theatres on the Bay",
+      "venueType": "attraction",
+      "addressText": "1 Esplanade Drive, Singapore, 038981",
+      "lat": 1.2898,
+      "lng": 103.8556,
+      "floor": "L1",
+      "landmark": "Near box office",
+      "hours": "12:00 - 20:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.esplanade.com",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "chinatown-point-l2",
+      "venueName": "Chinatown Point",
+      "venueType": "mall",
+      "addressText": "133 New Bridge Road, Singapore, 059413",
+      "lat": 1.2847,
+      "lng": 103.8454,
+      "floor": "L2",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.chinatownpoint.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "peoples-park-complex-l2",
+      "venueName": "People's Park Complex",
+      "venueType": "mall",
+      "addressText": "1 Park Road, Singapore, 059108",
+      "lat": 1.2841,
+      "lng": 103.8426,
+      "floor": "L2",
+      "landmark": "Near lift lobby",
+      "hours": "10:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.peoplesparkcomplex.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "shaw-centre-l3",
+      "venueName": "Shaw Centre",
+      "venueType": "mall",
+      "addressText": "1 Scotts Road, Singapore, 228208",
+      "lat": 1.3066,
+      "lng": 103.832,
+      "floor": "L3",
+      "landmark": "Near Isetan",
+      "hours": "10:30 - 21:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.shawcentre.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "claymore-connect-l1",
+      "venueName": "Claymore Connect",
+      "venueType": "mall",
+      "addressText": "442 Orchard Road, Singapore, 238879",
+      "lat": 1.3057,
+      "lng": 103.8294,
+      "floor": "L1",
+      "landmark": "Near Cold Storage",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.claymoreconnect.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "imm-l2",
+      "venueName": "IMM Building",
+      "venueType": "mall",
+      "addressText": "2 Jurong East Street 21, Singapore, 609601",
+      "lat": 1.3349,
+      "lng": 103.7465,
+      "floor": "L2",
+      "landmark": "Near IKEA entrance",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/imm/en.html",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jcube-l3",
+      "venueName": "JCube",
+      "venueType": "mall",
+      "addressText": "2 Jurong East Central 1, Singapore, 609731",
+      "lat": 1.3336,
+      "lng": 103.7406,
+      "floor": "L3",
+      "landmark": "Near ice rink",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/jcube/en.html",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "big-box-l1",
+      "venueName": "Big Box",
+      "venueType": "mall",
+      "addressText": "1 Venture Avenue, Singapore, 608521",
+      "lat": 1.3356,
+      "lng": 103.7453,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.bigbox.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "taman-jurong-shopping-centre-l2",
+      "venueName": "Taman Jurong Shopping Centre",
+      "venueType": "mall",
+      "addressText": "399 Yung Sheng Road, Singapore, 610399",
+      "lat": 1.3357,
+      "lng": 103.7232,
+      "floor": "L2",
+      "landmark": "Near foodcourt",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.tamanjurongsc.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "grantral-mall-l2",
+      "venueName": "Grantral Mall",
+      "venueType": "mall",
+      "addressText": "9 Clementi West Street 1, Singapore, 129958",
+      "lat": 1.3137,
+      "lng": 103.7588,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.grantralmall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "junction-10-l3",
+      "venueName": "Junction 10",
+      "venueType": "mall",
+      "addressText": "1 Woodlands Road, Singapore, 677899",
+      "lat": 1.3889,
+      "lng": 103.7692,
+      "floor": "L3",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com/sg/malls/junction10/en.html",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "woodlands-civic-centre-l1",
+      "venueName": "Woodlands Civic Centre",
+      "venueType": "other",
+      "addressText": "900 South Woodlands Drive, Singapore, 730900",
+      "lat": 1.4329,
+      "lng": 103.7868,
+      "floor": "L1",
+      "landmark": "Near service centre",
+      "hours": "08:00 - 17:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.woodlands.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "vista-point-l2",
+      "venueName": "Vista Point",
+      "venueType": "mall",
+      "addressText": "548 Woodlands Drive 44, Singapore, 730548",
+      "lat": 1.442,
+      "lng": 103.794,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.vistapoint.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "888-plaza-l1",
+      "venueName": "888 Plaza",
+      "venueType": "mall",
+      "addressText": "888 Woodlands Drive 50, Singapore, 730888",
+      "lat": 1.444,
+      "lng": 103.801,
+      "floor": "L1",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.888plaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "greendale-plaza-l2",
+      "venueName": "Greendale Plaza",
+      "venueType": "mall",
+      "addressText": "298 Punggol Place, Singapore, 820298",
+      "lat": 1.401,
+      "lng": 103.904,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.greendaleplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "anchorvale-community-club-l1",
+      "venueName": "Anchorvale Community Club",
+      "venueType": "other",
+      "addressText": "59 Anchorvale Road, Singapore, 544964",
+      "lat": 1.3935,
+      "lng": 103.8855,
+      "floor": "L1",
+      "landmark": "Near main hall",
+      "hours": "09:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "oasis-terraces-l2",
+      "venueName": "Oasis Terraces",
+      "venueType": "mall",
+      "addressText": "681 Punggol Drive, Singapore, 820681",
+      "lat": 1.403,
+      "lng": 103.9134,
+      "floor": "L2",
+      "landmark": "Near polyclinic",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.oasisterraces.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "buangkok-square-l2",
+      "venueName": "Buangkok Square",
+      "venueType": "mall",
+      "addressText": "991 Buangkok Link, Singapore, 530991",
+      "lat": 1.3834,
+      "lng": 103.8928,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.buangkoksquare.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ehub-downtown-east-l2",
+      "venueName": "E!hub @ Downtown East",
+      "venueType": "mall",
+      "addressText": "1 Pasir Ris Close, Singapore, 519599",
+      "lat": 1.3772,
+      "lng": 103.9555,
+      "floor": "L2",
+      "landmark": "Near cinema",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.downtowneast.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "changi-city-point-l2",
+      "venueName": "Changi City Point",
+      "venueType": "mall",
+      "addressText": "5 Changi Business Park Central 1, Singapore, 486038",
+      "lat": 1.3343,
+      "lng": 103.9671,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.changicitypoint.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "loyang-point-l2",
+      "venueName": "Loyang Point",
+      "venueType": "mall",
+      "addressText": "259 Pasir Ris Street 21, Singapore, 510259",
+      "lat": 1.3684,
+      "lng": 103.9616,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.loyangpoint.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "katong-i12-l2",
+      "venueName": "i12 Katong",
+      "venueType": "mall",
+      "addressText": "112 East Coast Road, Singapore, 428802",
+      "lat": 1.3049,
+      "lng": 103.9047,
+      "floor": "L2",
+      "landmark": "Near cinema",
+      "hours": "10:00 - 22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.i12katong.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "katong-shopping-centre-l2",
+      "venueName": "Katong Shopping Centre",
+      "venueType": "mall",
+      "addressText": "865 Mountbatten Road, Singapore, 437844",
+      "lat": 1.3039,
+      "lng": 103.9026,
+      "floor": "L2",
+      "landmark": "Near restrooms",
+      "hours": "10:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.katongsc.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "roxy-square-l2",
+      "venueName": "Roxy Square",
+      "venueType": "mall",
+      "addressText": "50 East Coast Road, Singapore, 428769",
+      "lat": 1.3051,
+      "lng": 103.9023,
+      "floor": "L2",
+      "landmark": "Near toilet",
+      "hours": "10:00 - 21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.roxysquare.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mount-alvernia-hospital-l1",
+      "venueName": "Mount Alvernia Hospital",
+      "venueType": "other",
+      "addressText": "820 Thomson Road, Singapore, 574623",
+      "lat": 1.3405,
+      "lng": 103.8389,
+      "floor": "L1",
+      "landmark": "Main lobby",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.mtalvernia.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "parkway-east-hospital-l1",
+      "venueName": "Parkway East Hospital",
+      "venueType": "other",
+      "addressText": "321 Joo Chiat Place, Singapore, 427990",
+      "lat": 1.3115,
+      "lng": 103.9048,
+      "floor": "L1",
+      "landmark": "Near lobby",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.parkwayeast.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "raffles-hospital-l1",
+      "venueName": "Raffles Hospital",
+      "venueType": "other",
+      "addressText": "585 North Bridge Road, Singapore, 188770",
+      "lat": 1.3012,
+      "lng": 103.856,
+      "floor": "L1",
+      "landmark": "Near specialist clinic",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.raffleshospital.com",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "farrer-park-hospital-l1",
+      "venueName": "Farrer Park Hospital",
+      "venueType": "other",
+      "addressText": "1 Farrer Park Station Road, Singapore, 217562",
+      "lat": 1.3126,
+      "lng": 103.8541,
+      "floor": "L1",
+      "landmark": "Near lobby",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.farrerpark.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "khoo-teck-puat-hospital-l1",
+      "venueName": "Khoo Teck Puat Hospital",
+      "venueType": "other",
+      "addressText": "90 Yishun Central, Singapore, 768828",
+      "lat": 1.4249,
+      "lng": 103.8381,
+      "floor": "L1",
+      "landmark": "Main building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ktph.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "changi-general-hospital-l1",
+      "venueName": "Changi General Hospital",
+      "venueType": "other",
+      "addressText": "2 Simei Street 3, Singapore, 529889",
+      "lat": 1.3405,
+      "lng": 103.9493,
+      "floor": "L1",
+      "landmark": "Main building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.cgh.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ng-teng-fong-hospital-l1",
+      "venueName": "Ng Teng Fong General Hospital",
+      "venueType": "other",
+      "addressText": "1 Jurong East Street 21, Singapore, 609606",
+      "lat": 1.3337,
+      "lng": 103.7468,
+      "floor": "L1",
+      "landmark": "Main building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.ntfgh.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "sengkang-general-hospital-l1",
+      "venueName": "Sengkang General Hospital",
+      "venueType": "other",
+      "addressText": "110 Sengkang East Way, Singapore, 544886",
+      "lat": 1.3945,
+      "lng": 103.8936,
+      "floor": "L1",
+      "landmark": "Main building",
+      "hours": "24 hours",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.skgh.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-bishan-b1",
+      "venueName": "Bishan MRT Station",
+      "venueType": "other",
+      "addressText": "200 Bishan Road, Singapore, 579827",
+      "lat": 1.3505,
+      "lng": 103.8485,
+      "floor": "B1",
+      "landmark": "Paid area",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-harbourfront-b2",
+      "venueName": "HarbourFront MRT Station",
+      "venueType": "other",
+      "addressText": "1 Maritime Square, Singapore, 099253",
+      "lat": 1.2654,
+      "lng": 103.8213,
+      "floor": "B2",
+      "landmark": "Near exit D",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-dhoby-ghaut-b1",
+      "venueName": "Dhoby Ghaut MRT Station",
+      "venueType": "other",
+      "addressText": "11 Orchard Road, Singapore, 238826",
+      "lat": 1.2994,
+      "lng": 103.8456,
+      "floor": "B1",
+      "landmark": "Near exit B",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-pasir-ris-l1",
+      "venueName": "Pasir Ris MRT Station",
+      "venueType": "other",
+      "addressText": "10 Pasir Ris Central, Singapore, 519634",
+      "lat": 1.3732,
+      "lng": 103.9494,
+      "floor": "L1",
+      "landmark": "Near exit A",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-punggol-l1",
+      "venueName": "Punggol MRT Station",
+      "venueType": "other",
+      "addressText": "10 Punggol Central, Singapore, 828851",
+      "lat": 1.4052,
+      "lng": 103.9024,
+      "floor": "L1",
+      "landmark": "Near exit B",
+      "hours": "05:30 - 00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg/Stations-Trains-Buses/MRT-Network",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "national-gallery-l1",
+      "venueName": "National Gallery Singapore",
+      "venueType": "attraction",
+      "addressText": "1 St Andrew's Road, Singapore, 178957",
+      "lat": 1.2903,
+      "lng": 103.8517,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nationalgallery.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "peranakan-museum-l1",
+      "venueName": "Peranakan Museum",
+      "venueType": "attraction",
+      "addressText": "39 Armenian Street, Singapore, 179941",
+      "lat": 1.2941,
+      "lng": 103.8493,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhb.gov.sg/peranakanmuseum",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "indian-heritage-centre-l1",
+      "venueName": "Indian Heritage Centre",
+      "venueType": "attraction",
+      "addressText": "5 Campbell Lane, Singapore, 209924",
+      "lat": 1.3062,
+      "lng": 103.8522,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.indianheritage.org.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "malay-heritage-centre-l1",
+      "venueName": "Malay Heritage Centre",
+      "venueType": "attraction",
+      "addressText": "85 Sultan Gate, Singapore, 198501",
+      "lat": 1.3026,
+      "lng": 103.859,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 18:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.malayheritage.org.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "chinatown-heritage-centre-l1",
+      "venueName": "Chinatown Heritage Centre",
+      "venueType": "attraction",
+      "addressText": "48 Pagoda Street, Singapore, 059207",
+      "lat": 1.2839,
+      "lng": 103.8444,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "09:00 - 20:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.chinatownheritagecentre.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "lee-kong-chian-museum-l1",
+      "venueName": "Lee Kong Chian Natural History Museum",
+      "venueType": "attraction",
+      "addressText": "2 Conservatory Drive, Singapore, 117377",
+      "lat": 1.3006,
+      "lng": 103.7736,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://lkcnhm.nus.edu.sg",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "civil-defence-heritage-gallery-l1",
+      "venueName": "Civil Defence Heritage Gallery",
+      "venueType": "attraction",
+      "addressText": "62 Hill Street, Singapore, 179367",
+      "lat": 1.2931,
+      "lng": 103.8494,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "10:00 - 17:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.scdf.gov.sg/home/community-volunteers/cd-heritage-gallery",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.150Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.150Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tampines-cc-l1",
+      "venueName": "Tampines Community Club",
+      "venueType": "other",
+      "addressText": "Tampines Street 11, 529452",
+      "lat": 1.3508,
+      "lng": 103.9442,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "09:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jurong-east-cc-l1",
+      "venueName": "Jurong East Community Club",
+      "venueType": "other",
+      "addressText": "21 Jurong East Street 31, 609517",
+      "lat": 1.3346,
+      "lng": 103.7437,
+      "floor": "L1",
+      "landmark": "Near main hall",
+      "hours": "09:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "woodlands-cc-l1",
+      "venueName": "Woodlands Community Club",
+      "venueType": "other",
+      "addressText": "1 Woodlands Street 81, 738526",
+      "lat": 1.437,
+      "lng": 103.7735,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "09:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "pasir-ris-cc-l1",
+      "venueName": "Pasir Ris Elias Community Club",
+      "venueType": "other",
+      "addressText": "93 Pasir Ris Drive 3, 519502",
+      "lat": 1.3738,
+      "lng": 103.9485,
+      "floor": "L1",
+      "landmark": "Near main hall",
+      "hours": "09:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bishan-cc-l1",
+      "venueName": "Bishan Community Club",
+      "venueType": "other",
+      "addressText": "51 Bishan Street 13, 579799",
+      "lat": 1.3534,
+      "lng": 103.8505,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "09:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "yishun-cc-l1",
+      "venueName": "Nee Soon Central Community Club",
+      "venueType": "other",
+      "addressText": "50 Yishun Avenue 11, 768867",
+      "lat": 1.4295,
+      "lng": 103.8351,
+      "floor": "L1",
+      "landmark": "Near hall",
+      "hours": "09:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.onepa.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "woodlands-regional-library-l1",
+      "venueName": "Woodlands Regional Library",
+      "venueType": "other",
+      "addressText": "900 South Woodlands Drive, 730900",
+      "lat": 1.4329,
+      "lng": 103.7868,
+      "floor": "L1",
+      "landmark": "Inside library",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jurong-regional-library-l1",
+      "venueName": "Jurong Regional Library",
+      "venueType": "other",
+      "addressText": "21 Jurong East Central 1, 609732",
+      "lat": 1.3334,
+      "lng": 103.74,
+      "floor": "L1",
+      "landmark": "Inside library",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bedok-public-library-l1",
+      "venueName": "Bedok Public Library",
+      "venueType": "other",
+      "addressText": "11 Bedok North Street 1, 469662",
+      "lat": 1.3268,
+      "lng": 103.9297,
+      "floor": "L1",
+      "landmark": "Inside library",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "sengkang-public-library-l1",
+      "venueName": "Sengkang Public Library",
+      "venueType": "other",
+      "addressText": "1 Sengkang Square, 545078",
+      "lat": 1.3923,
+      "lng": 103.8954,
+      "floor": "L1",
+      "landmark": "Inside library",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nlb.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "anchorpoint-l2",
+      "venueName": "Anchorpoint Shopping Centre",
+      "venueType": "mall",
+      "addressText": "370 Alexandra Road, 159953",
+      "lat": 1.2895,
+      "lng": 103.8046,
+      "floor": "L2",
+      "landmark": "Near IKEA",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.frasersproperty.com/en/asia/retail/singapore/anchorpoint.html",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "queensway-shopping-centre-l2",
+      "venueName": "Queensway Shopping Centre",
+      "venueType": "mall",
+      "addressText": "1 Queensway, 149053",
+      "lat": 1.2865,
+      "lng": 103.8021,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.qsc.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ubi-ave-1-heartland-l1",
+      "venueName": "Ubi Heartland Mall",
+      "venueType": "mall",
+      "addressText": "1 Ubi Avenue 1, 389880",
+      "lat": 1.3267,
+      "lng": 103.9001,
+      "floor": "L1",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.capitaland.com",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "junction-9-l2",
+      "venueName": "Junction 9",
+      "venueType": "mall",
+      "addressText": "18 Yishun Avenue 9, 768897",
+      "lat": 1.4292,
+      "lng": 103.8364,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.junction9.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "djitsun-mall-l2",
+      "venueName": "Djitsun Mall @ Ang Mo Kio",
+      "venueType": "mall",
+      "addressText": "53 Ang Mo Kio Ave 3, 569933",
+      "lat": 1.3689,
+      "lng": 103.8484,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.djitsun.com",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "yew-tee-point-l2",
+      "venueName": "Yew Tee Point",
+      "venueType": "mall",
+      "addressText": "21 Choa Chu Kang North 6, 689578",
+      "lat": 1.3968,
+      "lng": 103.747,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.yewteepoint.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "hillion-mall-l2",
+      "venueName": "Hillion Mall",
+      "venueType": "mall",
+      "addressText": "17 Petir Road, 678278",
+      "lat": 1.378,
+      "lng": 103.7641,
+      "floor": "L2",
+      "landmark": "Near playground",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.hillionmall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "yishun-10-mall-l2",
+      "venueName": "Wisteria Mall",
+      "venueType": "mall",
+      "addressText": "598 Yishun Ring Road, 768698",
+      "lat": 1.4262,
+      "lng": 103.8452,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.wisteriamall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "cck-lot-one-l3",
+      "venueName": "321 Clementi",
+      "venueType": "mall",
+      "addressText": "321 Clementi Avenue 3, 129905",
+      "lat": 1.3147,
+      "lng": 103.7657,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.321clementi.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "rivervale-plaza-l2",
+      "venueName": "Rivervale Plaza",
+      "venueType": "mall",
+      "addressText": "118 Rivervale Drive, 540118",
+      "lat": 1.3922,
+      "lng": 103.9026,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.rivervaleplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bukit-batok-polyclinic-l1",
+      "venueName": "Bukit Batok Polyclinic",
+      "venueType": "other",
+      "addressText": "50 Bukit Batok West Ave 3, 659164",
+      "lat": 1.3472,
+      "lng": 103.7516,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "clementi-polyclinic-l1",
+      "venueName": "Clementi Polyclinic",
+      "venueType": "other",
+      "addressText": "451 Clementi Avenue 3, 129905",
+      "lat": 1.3147,
+      "lng": 103.7657,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "hougang-polyclinic-l1",
+      "venueName": "Hougang Polyclinic",
+      "venueType": "other",
+      "addressText": "89 Hougang Avenue 4, 538829",
+      "lat": 1.375,
+      "lng": 103.8897,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "yishun-polyclinic-l1",
+      "venueName": "Yishun Polyclinic",
+      "venueType": "other",
+      "addressText": "2 Yishun Avenue 9, 768898",
+      "lat": 1.4295,
+      "lng": 103.836,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "queenstown-polyclinic-l1",
+      "venueName": "Queenstown Polyclinic",
+      "venueType": "other",
+      "addressText": "580 Stirling Road, 148958",
+      "lat": 1.2931,
+      "lng": 103.8043,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singhealth.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "marine-parade-polyclinic-l1",
+      "venueName": "Marine Parade Polyclinic",
+      "venueType": "other",
+      "addressText": "80 Marine Parade Central, 440080",
+      "lat": 1.3028,
+      "lng": 103.9062,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singhealth.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "geylang-polyclinic-l1",
+      "venueName": "Geylang Polyclinic",
+      "venueType": "other",
+      "addressText": "21 Geylang East Central, 389707",
+      "lat": 1.3174,
+      "lng": 103.8878,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.singhealth.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "choa-chu-kang-polyclinic-l1",
+      "venueName": "Choa Chu Kang Polyclinic",
+      "venueType": "other",
+      "addressText": "2 Teck Whye Lane, 688846",
+      "lat": 1.3853,
+      "lng": 103.7436,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "ang-mo-kio-polyclinic-l1",
+      "venueName": "Ang Mo Kio Polyclinic",
+      "venueType": "other",
+      "addressText": "21 Ang Mo Kio Central 2, 569666",
+      "lat": 1.3694,
+      "lng": 103.8453,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "toa-payoh-polyclinic-l1",
+      "venueName": "Toa Payoh Polyclinic",
+      "venueType": "other",
+      "addressText": "2003 Lor 8 Toa Payoh, 319260",
+      "lat": 1.3338,
+      "lng": 103.8533,
+      "floor": "L1",
+      "landmark": "Near registration",
+      "hours": "08:00-16:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nhgp.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-raffles-place-b2",
+      "venueName": "Raffles Place MRT Station",
+      "venueType": "other",
+      "addressText": "5 Raffles Place, 048618",
+      "lat": 1.2833,
+      "lng": 103.8513,
+      "floor": "B2",
+      "landmark": "Paid area",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-city-hall-b2",
+      "venueName": "City Hall MRT Station",
+      "venueType": "other",
+      "addressText": "80 Bras Basah Road, 189560",
+      "lat": 1.293,
+      "lng": 103.8521,
+      "floor": "B2",
+      "landmark": "Paid area",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-yishun-l1",
+      "venueName": "Yishun MRT Station",
+      "venueType": "other",
+      "addressText": "20 Yishun Central 1, 768831",
+      "lat": 1.4295,
+      "lng": 103.8358,
+      "floor": "L1",
+      "landmark": "Near exit B",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-bedok-l1",
+      "venueName": "Bedok MRT Station",
+      "venueType": "other",
+      "addressText": "315 New Upper Changi Road, 467364",
+      "lat": 1.3241,
+      "lng": 103.9305,
+      "floor": "L1",
+      "landmark": "Near exit B",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-bukit-panjang-l1",
+      "venueName": "Bukit Panjang MRT Station",
+      "venueType": "other",
+      "addressText": "1 Jelebu Road, 677743",
+      "lat": 1.378,
+      "lng": 103.764,
+      "floor": "L1",
+      "landmark": "Near exit A",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-ang-mo-kio-b1",
+      "venueName": "Ang Mo Kio MRT Station",
+      "venueType": "other",
+      "addressText": "2450 Ang Mo Kio Ave 8, 569811",
+      "lat": 1.37,
+      "lng": 103.8494,
+      "floor": "B1",
+      "landmark": "Near exit A",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-sengkang-l1",
+      "venueName": "Sengkang MRT Station",
+      "venueType": "other",
+      "addressText": "1 Sengkang Square, 545078",
+      "lat": 1.3917,
+      "lng": 103.8951,
+      "floor": "L1",
+      "landmark": "Near exit C",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-boon-lay-l1",
+      "venueName": "Boon Lay MRT Station",
+      "venueType": "other",
+      "addressText": "1 Jurong West Central 2, 648886",
+      "lat": 1.3397,
+      "lng": 103.7067,
+      "floor": "L1",
+      "landmark": "Near exit C",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-hougang-l1",
+      "venueName": "Hougang MRT Station",
+      "venueType": "other",
+      "addressText": "80 Hougang Ave 10, 538766",
+      "lat": 1.3723,
+      "lng": 103.8935,
+      "floor": "L1",
+      "landmark": "Near exit A",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "mrt-bugis-b2",
+      "venueName": "Bugis MRT Station",
+      "venueType": "other",
+      "addressText": "230 Victoria Street, 188024",
+      "lat": 1.3008,
+      "lng": 103.8554,
+      "floor": "B2",
+      "landmark": "Paid area",
+      "hours": "05:30-00:30",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.smrt.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "botanic-gardens-visitor-centre",
+      "venueName": "Singapore Botanic Gardens",
+      "venueType": "attraction",
+      "addressText": "1 Cluny Road, 259569",
+      "lat": 1.315,
+      "lng": 103.8159,
+      "floor": "L1",
+      "landmark": "Visitor Centre",
+      "hours": "05:00-00:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg/sbg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "fort-canning-park-l1",
+      "venueName": "Fort Canning Centre",
+      "venueType": "attraction",
+      "addressText": "5 Cox Terrace, 179620",
+      "lat": 1.2945,
+      "lng": 103.8467,
+      "floor": "L1",
+      "landmark": "Near visitor centre",
+      "hours": "07:00-19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "east-coast-park-cc",
+      "venueName": "East Coast Park Area C",
+      "venueType": "attraction",
+      "addressText": "East Coast Park Service Road, 449876",
+      "lat": 1.3016,
+      "lng": 103.9127,
+      "floor": "L1",
+      "landmark": "Near Marine Cove",
+      "hours": "07:00-23:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "west-coast-park-l1",
+      "venueName": "West Coast Park",
+      "venueType": "attraction",
+      "addressText": "West Coast Ferry Road, 126978",
+      "lat": 1.281,
+      "lng": 103.756,
+      "floor": "L1",
+      "landmark": "Near playground",
+      "hours": "07:00-23:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "pasir-ris-park-l1",
+      "venueName": "Pasir Ris Park",
+      "venueType": "attraction",
+      "addressText": "Pasir Ris Central, 519639",
+      "lat": 1.3801,
+      "lng": 103.9474,
+      "floor": "L1",
+      "landmark": "Near mangrove boardwalk",
+      "hours": "07:00-23:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bishan-park-l1",
+      "venueName": "Bishan-Ang Mo Kio Park",
+      "venueType": "attraction",
+      "addressText": "1380 Ang Mo Kio Ave 1, 569930",
+      "lat": 1.3619,
+      "lng": 103.8437,
+      "floor": "L1",
+      "landmark": "Near pond garden",
+      "hours": "07:00-23:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jurong-lake-gardens-l1",
+      "venueName": "Jurong Lake Gardens",
+      "venueType": "attraction",
+      "addressText": "104 Yuan Ching Road, 618665",
+      "lat": 1.3364,
+      "lng": 103.7297,
+      "floor": "L1",
+      "landmark": "Lakeside Garden",
+      "hours": "07:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "jacob-ballas-garden",
+      "venueName": "Jacob Ballas Children's Garden",
+      "venueType": "attraction",
+      "addressText": "481K Bukit Timah Road, 259769",
+      "lat": 1.3172,
+      "lng": 103.8144,
+      "floor": "L1",
+      "landmark": "Near entrance",
+      "hours": "08:00-19:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.nparks.gov.sg/sbg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "playground-toa-payoh-l1",
+      "venueName": "Toa Payoh HDB Hub",
+      "venueType": "other",
+      "addressText": "480 Toa Payoh Lorong 6, 310480",
+      "lat": 1.3332,
+      "lng": 103.8488,
+      "floor": "L1",
+      "landmark": "Near playground",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.hdb.gov.sg",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.152Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.152Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "rochester-mall-l2",
+      "venueName": "Rochester Mall",
+      "venueType": "mall",
+      "addressText": "35 Rochester Drive, 138698",
+      "lat": 1.3057,
+      "lng": 103.7883,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.rochestermall.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "star-vista-l1",
+      "venueName": "The Star Vista",
+      "venueType": "mall",
+      "addressText": "1 Vista Exchange Green, 138617",
+      "lat": 1.3067,
+      "lng": 103.7882,
+      "floor": "L1",
+      "landmark": "Near Cold Storage",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.thestarvista.com",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "holland-road-shopping-l2",
+      "venueName": "Holland Road Shopping Centre",
+      "venueType": "mall",
+      "addressText": "211 Holland Avenue, 278967",
+      "lat": 1.3111,
+      "lng": 103.7958,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.hollandroadsc.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "tiong-bahru-plaza-l3",
+      "venueName": "Tiong Bahru Plaza",
+      "venueType": "mall",
+      "addressText": "302 Tiong Bahru Road, 168732",
+      "lat": 1.2865,
+      "lng": 103.8271,
+      "floor": "L3",
+      "landmark": "Near food court",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.tiongbahruplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "alexandra-central-l2",
+      "venueName": "Alexandra Central",
+      "venueType": "mall",
+      "addressText": "321 Alexandra Road, 159971",
+      "lat": 1.2877,
+      "lng": 103.8056,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.alexandracentral.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "great-world-city-l2",
+      "venueName": "Great World City",
+      "venueType": "mall",
+      "addressText": "1 Kim Seng Promenade, 237994",
+      "lat": 1.2897,
+      "lng": 103.8345,
+      "floor": "L2",
+      "landmark": "Near cinema",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "private_room",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.greatworld.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "united-square-l3",
+      "venueName": "United Square",
+      "venueType": "mall",
+      "addressText": "101 Thomson Road, 307591",
+      "lat": 1.3203,
+      "lng": 103.8442,
+      "floor": "L3",
+      "landmark": "Near enrichment centres",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.unitedsquare.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "square-2-l3",
+      "venueName": "Square 2",
+      "venueType": "mall",
+      "addressText": "10 Sinaran Drive, 307506",
+      "lat": 1.3201,
+      "lng": 103.8439,
+      "floor": "L3",
+      "landmark": "Near enrichment",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.square2.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "velocity-novena-l3",
+      "venueName": "Velocity @ Novena Square",
+      "venueType": "mall",
+      "addressText": "238 Thomson Road, 307683",
+      "lat": 1.3201,
+      "lng": 103.8447,
+      "floor": "L3",
+      "landmark": "Sports level",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.velocity-novena.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "goldhill-plaza-l2",
+      "venueName": "Goldhill Plaza",
+      "venueType": "mall",
+      "addressText": "1 Goldhill Plaza, 308899",
+      "lat": 1.3197,
+      "lng": 103.8431,
+      "floor": "L2",
+      "landmark": "Near clinic",
+      "hours": "09:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.goldhillplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "hougang-1-l2",
+      "venueName": "Hougang 1",
+      "venueType": "mall",
+      "addressText": "1 Hougang Street 91, 538692",
+      "lat": 1.372,
+      "lng": 103.8927,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.hougang1.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "amk-hub-l3",
+      "venueName": "AMK Hub",
+      "venueType": "mall",
+      "addressText": "53 Ang Mo Kio Ave 3, 569933",
+      "lat": 1.3689,
+      "lng": 103.8484,
+      "floor": "L3",
+      "landmark": "Near library",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "hot_water",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.amkhub.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "bukit-timah-plaza-l2",
+      "venueName": "Bukit Timah Plaza",
+      "venueType": "mall",
+      "addressText": "1 Jalan Anak Bukit, 588996",
+      "lat": 1.3438,
+      "lng": 103.7774,
+      "floor": "L2",
+      "landmark": "Near food court",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table",
+        "sink"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.bukittimahplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "beauty-world-plaza-l2",
+      "venueName": "Beauty World Plaza",
+      "venueType": "mall",
+      "addressText": "1 Jalan Anak Bukit, 588996",
+      "lat": 1.3405,
+      "lng": 103.7762,
+      "floor": "L2",
+      "landmark": "Near NTUC",
+      "hours": "10:00-22:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.beautyworldplaza.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.sassymamasg.com/best-nursing-rooms-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    },
+    {
+      "id": "beauty-world-centre-l2",
+      "venueName": "Beauty World Centre",
+      "venueType": "mall",
+      "addressText": "144 Upper Bukit Timah Road, 588177",
+      "lat": 1.3398,
+      "lng": 103.7761,
+      "floor": "L2",
+      "landmark": "Near shops",
+      "hours": "10:00-21:00",
+      "amenities": [
+        "nursing_chair",
+        "changing_table"
+      ],
+      "sources": [
+        {
+          "name": "Website",
+          "url": "https://www.beautyworldcentre.com.sg",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.littledayout.com/list-of-nursing-rooms-in-singapore/",
+          "extractedAt": "2026-02-09T09:28:44.155Z"
+        }
+      ],
+      "lastVerifiedAt": "2026-02-09T09:28:44.155Z",
+      "status": "active",
+      "isSample": false
+    }
+  ],
+  "lastUpdated": "2026-02-09T09:40:56.678Z"
+}

@@ -1,0 +1,90 @@
+import { z } from "zod";
+
+// Amenity types available in nursing/baby-care rooms
+export const AmenitySchema = z.enum([
+    "changing_table",
+    "nursing_chair",
+    "hot_water",
+    "sink",
+    "private_room",
+    "microwave",
+    "fridge",
+    "highchair",
+    "toys",
+]);
+
+export type Amenity = z.infer<typeof AmenitySchema>;
+
+// Venue type  
+export const VenueTypeSchema = z.enum(["mall", "attraction", "other"]);
+export type VenueType = z.infer<typeof VenueTypeSchema>;
+
+// Location status
+export const LocationStatusSchema = z.enum([
+    "active",
+    "unverified",
+    "reported_closed",
+]);
+export type LocationStatus = z.infer<typeof LocationStatusSchema>;
+
+// Source of information for a location
+export const SourceSchema = z.object({
+    name: z.string().describe("Source name (e.g., 'Official Website', 'User Submission')"),
+    url: z.union([z.string().url(), z.literal("")]).describe("URL where this information was found (empty string allowed for community submissions)"),
+    extractedAt: z.string().datetime().describe("ISO timestamp when data was extracted from source"),
+});
+
+export type Source = z.infer<typeof SourceSchema>;
+
+// Main location schema
+export const LocationSchema = z.object({
+    id: z.string().describe("Unique identifier for the location"),
+    venueName: z.string().min(1).describe("Name of the venue/building"),
+    venueType: VenueTypeSchema.describe("Type of venue"),
+    addressText: z.string().optional().describe("Human-readable address"),
+    lat: z.number().min(-90).max(90).describe("Latitude"),
+    lng: z.number().min(-180).max(180).describe("Longitude"),
+    floor: z.string().optional().describe("Floor level (e.g., 'L1', 'B2', '3')"),
+    landmark: z.string().optional().describe("Nearby landmark or directions"),
+    hours: z.string().optional().describe("Operating hours if different from venue"),
+    amenities: z.array(AmenitySchema).default([]).describe("Available amenities"),
+    cost: z.string().default("free").describe("Cost to use (defaults to 'free')"),
+    sources: z.array(SourceSchema).min(1).describe("Sources for this location data"),
+    verifiedAt: z.string().datetime().optional().describe("ISO timestamp when location was last verified"),
+    confidence: z.number().min(0).max(100).default(50).describe("Confidence score (0-100)"),
+    status: LocationStatusSchema.default("unverified").describe("Current status of location"),
+    notes: z.string().optional().describe("Additional notes or details"),
+    isSample: z.boolean().default(false).describe("Mark as sample data (not shown in production UI)"),
+});
+
+export type Location = z.infer<typeof LocationSchema>;
+
+// Array of locations schema
+export const LocationsDataSchema = z.object({
+    locations: z.array(LocationSchema),
+    lastUpdated: z.string().datetime().describe("ISO timestamp when data was last updated"),
+});
+
+export type LocationsData = z.infer<typeof LocationsDataSchema>;
+
+// For data scraping candidates
+export const CandidateLocationSchema = z.object({
+    sourceUrl: z.string().url().describe("URL where candidate was found"),
+    venueName: z.string().min(1).describe("Venue name"),
+    addressText: z.string().optional().describe("Address or location description"),
+    floor: z.string().optional().describe("Floor information if available"),
+    amenitiesText: z.string().optional().describe("Raw text describing amenities"),
+    notes: z.string().optional().describe("Any additional notes"),
+    lat: z.number().optional().describe("Latitude if geocoded"),
+    lng: z.number().optional().describe("Longitude if geocoded"),
+});
+
+export type CandidateLocation = z.infer<typeof CandidateLocationSchema>;
+
+export const CandidatesDataSchema = z.object({
+    candidates: z.array(CandidateLocationSchema),
+    source: z.string().describe("Source identifier (e.g., 'sgnursingrooms', 'momspumphere')"),
+    scrapedAt: z.string().datetime().describe("ISO timestamp when scraping occurred"),
+});
+
+export type CandidatesData = z.infer<typeof CandidatesDataSchema>;

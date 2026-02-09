@@ -1,0 +1,46 @@
+name: 🗣️ Location Feedback
+description: Report an issue with an existing location or confirm it's still there
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep MilkMap data accurate!
+
+  - type: input
+    id: location_id
+    attributes:
+      label: Location ID
+      description: The ID of the location you're providing feedback about
+      placeholder: e.g., sample-001-vivo-city
+    validations:
+      required: true
+
+  - type: dropdown
+    id: vote
+    attributes:
+      label: Status
+      description: Is this location still there and accurate?
+      options:
+        - 👍 Still there / Working fine
+        - 👎 Issue / Not there anymore
+    validations:
+      required: true
+
+  - type: textarea
+    id: comment
+    attributes:
+      label: Additional Details
+      description: Any comments or changes you noticed?
+      placeholder: e.g., "Moved to level 2" or "Room has been closed"
+    validations:
+      required: false
+
+  - type: input
+    id: timestamp
+    attributes:
+      label: When did you visit?
+      placeholder: e.g., February 2026
+    validations:
+      required: false

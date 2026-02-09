@@ -1,0 +1,87 @@
+name: ➕ New Location Submission
+description: Submit a new nursing/baby-care room location
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to MilkMap! Your submission will be reviewed before being added.
+
+  - type: input
+    id: venue_name
+    attributes:
+      label: Venue Name
+      description: Name of the mall, attraction, or building
+      placeholder: e.g., VivoCity
+    validations:
+      required: true
+
+  - type: input
+    id: address
+    attributes:
+      label: Address
+      description: Full Singapore address
+      placeholder: e.g., 1 HarbourFront Walk, Singapore 098585
+    validations:
+      required: true
+
+  - type: input
+    id: floor
+    attributes:
+      label: Floor
+      description: Which floor is the nursing room on?
+      placeholder: e.g., L3, B2
+    validations:
+      required: false
+
+  - type: input
+    id: landmark
+    attributes:
+      label: Landmark / Directions
+      description: How to find it?
+      placeholder: e.g., Near Toys 'R' Us
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: amenities
+    attributes:
+      label: Amenities
+      description: What facilities are available?
+      options:
+        - label: Changing table
+        - label: Nursing chair
+        - label: Hot water
+        - label: Sink
+        - label: Private room
+        - label: Microwave
+        - label: Fridge
+        - label: High chair
+        - label: Toys
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Where did you find this information?
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: input
+    id: coordinates
+    attributes:
+      label: Coordinates (optional)
+      description: Latitude, Longitude
+      placeholder: e.g., 1.2644, 103.8223
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other details?
+    validations:
+      required: false
