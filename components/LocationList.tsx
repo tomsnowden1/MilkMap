@@ -98,6 +98,7 @@ export default function LocationList({
                                             <div className="flex-shrink-0">
                                                 <TrustBadge
                                                     status={location.status}
+                                                    level={location.verificationLevel}
                                                     verifiedAt={location.verifiedAt}
                                                     size="sm"
                                                     showTooltip={false}

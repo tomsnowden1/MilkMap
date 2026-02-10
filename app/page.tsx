@@ -21,8 +21,42 @@ export default function HomePage() {
     const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
     const [isLocating, setIsLocating] = useState(false);
 
+    // Normalize data before validation to prevent crashes
+    const raw = locationsDataRaw as any;
+
+    // Ensure lastUpdated exists
+    if (!raw.lastUpdated) {
+        raw.lastUpdated = new Date().toISOString();
+    }
+
+    let fixedCount = 0;
+    let droppedCount = 0;
+    const initialCount = Array.isArray(raw.locations) ? raw.locations.length : 0;
+
+    if (Array.isArray(raw.locations)) {
+        raw.locations = raw.locations.map((loc: any) => {
+            // Fix missing venueName
+            if (!loc.venueName) {
+                loc.venueName = loc.mallName || loc.venue || loc.title || loc.addressText || loc.id || "Unknown Location";
+                fixedCount++;
+            }
+            return loc;
+        }).filter((loc: any) => {
+            // Drop invalid coordinates to avoid map crashes
+            if (typeof loc.lat !== 'number' || typeof loc.lng !== 'number') {
+                droppedCount++;
+                return false;
+            }
+            return true;
+        });
+    }
+
+    if (process.env.NODE_ENV === "development") {
+        console.log(`[Dev] Locations: ${raw.locations?.length ?? 0}/${initialCount}, Auto-named: ${fixedCount}, Dropped: ${droppedCount}`);
+    }
+
     // Validate and parse the JSON data
-    const locationsData = LocationsDataSchema.parse(locationsDataRaw);
+    const locationsData = LocationsDataSchema.parse(raw);
 
     // Filter out sample data in production, or show based on flag
     const showSamples = process.env.NODE_ENV === "development";
@@ -62,7 +96,7 @@ export default function HomePage() {
             // Search filter
             const matchesSearch =
                 searchQuery === "" ||
-                location.venueName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                (location.venueName?.toLowerCase() || "").includes(searchQuery.toLowerCase()) ||
                 location.addressText?.toLowerCase().includes(searchQuery.toLowerCase());
 
             // Amenity filter (must have ALL selected amenities)

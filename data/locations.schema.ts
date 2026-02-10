@@ -27,10 +27,19 @@ export const LocationStatusSchema = z.enum([
 ]);
 export type LocationStatus = z.infer<typeof LocationStatusSchema>;
 
+// Verification Level
+export const VerificationLevelSchema = z.enum(["unverified", "user-reported", "verified"]);
+export type VerificationLevel = z.infer<typeof VerificationLevelSchema>;
+
 // Source of information for a location
 export const SourceSchema = z.object({
+    id: z.string().uuid().optional().describe("Unique identifier for source"),
     name: z.string().describe("Source name (e.g., 'Official Website', 'User Submission')"),
-    url: z.union([z.string().url(), z.literal("")]).describe("URL where this information was found (empty string allowed for community submissions)"),
+    url: z.union([z.string().url(), z.literal("")]).describe("Original URL where this information was found"),
+    urlResolved: z.string().url().optional().describe("Resolved URL after redirects"),
+    httpStatus: z.number().int().optional().describe("Last known HTTP status code"),
+    lastChecked: z.string().datetime().optional().describe("ISO timestamp when link was last checked"),
+    contentHash: z.string().optional().describe("Hash of content for change detection"),
     extractedAt: z.string().datetime().describe("ISO timestamp when data was extracted from source"),
 });
 
@@ -39,7 +48,8 @@ export type Source = z.infer<typeof SourceSchema>;
 // Main location schema
 export const LocationSchema = z.object({
     id: z.string().describe("Unique identifier for the location"),
-    venueName: z.string().min(1).describe("Name of the venue/building"),
+    // venueName is the primary name identifier for locations
+    venueName: z.string().min(1).optional().describe("Name of the venue/building"),
     venueType: VenueTypeSchema.describe("Type of venue"),
     addressText: z.string().optional().describe("Human-readable address"),
     lat: z.number().min(-90).max(90).describe("Latitude"),
@@ -51,6 +61,7 @@ export const LocationSchema = z.object({
     cost: z.string().default("free").describe("Cost to use (defaults to 'free')"),
     sources: z.array(SourceSchema).min(1).describe("Sources for this location data"),
     verifiedAt: z.string().datetime().optional().describe("ISO timestamp when location was last verified"),
+    verificationLevel: VerificationLevelSchema.default("unverified").describe("Verification level based on evidence"),
     confidence: z.number().min(0).max(100).default(50).describe("Confidence score (0-100)"),
     status: LocationStatusSchema.default("unverified").describe("Current status of location"),
     notes: z.string().optional().describe("Additional notes or details"),
@@ -62,7 +73,7 @@ export type Location = z.infer<typeof LocationSchema>;
 // Array of locations schema
 export const LocationsDataSchema = z.object({
     locations: z.array(LocationSchema),
-    lastUpdated: z.string().datetime().describe("ISO timestamp when data was last updated"),
+    lastUpdated: z.string().datetime().optional().describe("ISO timestamp when data was last updated"),
 });
 
 export type LocationsData = z.infer<typeof LocationsDataSchema>;
