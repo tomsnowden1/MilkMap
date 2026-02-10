@@ -1,0 +1,178 @@
+{
+  "synonyms": [
+    "nursing room",
+    "baby care room",
+    "parent room",
+    "parents room",
+    "lactation room",
+    "breastfeeding room",
+    "nursery and baby room",
+    "baby changing",
+    "diaper changing"
+  ],
+  "trusted_directories": [
+    {
+      "name": "Moms Pump Here",
+      "domain": "momspumphere.com",
+      "reliability_tier": "B",
+      "notes": "Often includes explicit LOCATION and HOURS blocks; validate presence before accepting."
+    },
+    {
+      "name": "Little Day Out",
+      "domain": "littledayout.com",
+      "reliability_tier": "C",
+      "notes": "Useful when official sources absent; treat as corroboration not sole truth where possible."
+    }
+  ],
+  "operators": [
+    {
+      "name": "Changi Airport Facilities Directory",
+      "domains": [
+        "changiairport.com"
+      ],
+      "preferred_terms": [
+        "baby care rooms",
+        "nursing",
+        "changing facilities"
+      ],
+      "evidence_patterns": [
+        "/facilities-and-services-directory/"
+      ],
+      "example_urls": [
+        "https://www.changiairport.com/en/at-changi/facilities-and-services-directory/changi-airport-baby-care-rooms-nursing-and-changing-facilities.html"
+      ]
+    },
+    {
+      "name": "Gardens by the Bay",
+      "domains": [
+        "gardensbythebay.com.sg"
+      ],
+      "preferred_terms": [
+        "nursing room",
+        "amenities and services"
+      ],
+      "evidence_patterns": [
+        "/plan-your-visit/amenities-and-services"
+      ],
+      "example_urls": [
+        "https://www.gardensbythebay.com.sg/en/plan-your-visit/amenities-and-services.html"
+      ]
+    },
+    {
+      "name": "National Heritage Board Museums",
+      "domains": [
+        "nhb.gov.sg"
+      ],
+      "preferred_terms": [
+        "amenities",
+        "visitor information",
+        "nursing rooms"
+      ],
+      "evidence_patterns": [
+        "/plan-your-visit/",
+        "/visitor-information/"
+      ],
+      "example_urls": [
+        "https://www.nhb.gov.sg/acm/visit/plan-your-visit",
+        "https://www.nhb.gov.sg/nationalmuseum/plan-your-visit/visitor-information/amenities"
+      ]
+    },
+    {
+      "name": "Singapore General Hospital",
+      "domains": [
+        "sgh.com.sg"
+      ],
+      "preferred_terms": [
+        "amenities",
+        "lactation/nursing room"
+      ],
+      "evidence_patterns": [
+        "/patient-services/visiting-information/amenities"
+      ],
+      "example_urls": [
+        "https://www.sgh.com.sg/patient-services/visiting-information/amenities"
+      ]
+    },
+    {
+      "name": "Resorts World Sentosa",
+      "domains": [
+        "rwsentosa.com"
+      ],
+      "preferred_terms": [
+        "family-friendly facilities",
+        "baby centre"
+      ],
+      "evidence_patterns": [
+        "/guide-to-fun/family-friendly-facilities-in-rws"
+      ],
+      "example_urls": [
+        "https://www.rwsentosa.com/en/guide-to-fun/family-friendly-facilities-in-rws"
+      ]
+    },
+    {
+      "name": "Link REIT (SG) Mall Pages",
+      "domains": [
+        "sg.linkreit.com"
+      ],
+      "preferred_terms": [
+        "nursing and baby room"
+      ],
+      "evidence_patterns": [
+        "/malls/",
+        "/mall-info/about-mall/"
+      ],
+      "example_urls": [
+        "https://sg.linkreit.com/malls/amk-hub/mall-info/about-mall/"
+      ]
+    },
+    {
+      "name": "City Square Mall",
+      "domains": [
+        "citysquaremall.com.sg"
+      ],
+      "preferred_terms": [
+        "amenities",
+        "nursing room"
+      ],
+      "evidence_patterns": [
+        "/about-us/the-mall/amenities/"
+      ],
+      "example_urls": [
+        "https://www.citysquaremall.com.sg/about-us/the-mall/amenities/"
+      ]
+    },
+    {
+      "name": "ArtScience Museum (MBS)",
+      "domains": [
+        "marinabaysands.com"
+      ],
+      "preferred_terms": [
+        "amenities",
+        "accessibility",
+        "baby changing"
+      ],
+      "evidence_patterns": [
+        "/museum/plan-your-visit/amenities"
+      ],
+      "example_urls": [
+        "https://www.marinabaysands.com/museum/plan-your-visit/amenities.html"
+      ]
+    }
+  ],
+  "normalization": {
+    "floor": "Normalize to L<number> and B<number> where possible; keep 'B' for basements.",
+    "amenities_tokens": [
+      "changing_table",
+      "hot_water",
+      "sink",
+      "private_room",
+      "nursing_chair",
+      "microwave",
+      "bottle_warmer",
+      "diaper_disposal",
+      "family_toilet",
+      "stroller_space"
+    ],
+    "directory_validation": "For Moms Pump Here pages, require presence of 'LOCATION' and/or 'HOURS' markers before accepting as evidence."
+  }
+}
