@@ -1,7 +1,8 @@
 import type { Location } from "@/data/locations.schema";
 
 interface TrustBadgeProps {
-    status: Location["status"];
+    status?: Location["status"];
+    level?: Location["verificationLevel"];
     verifiedAt?: string;
     size?: "sm" | "md" | "lg";
     showTooltip?: boolean;
@@ -9,34 +10,48 @@ interface TrustBadgeProps {
 
 export default function TrustBadge({
     status,
+    level,
     verifiedAt,
     size = "md",
     showTooltip = true
 }: TrustBadgeProps) {
     const getStatusInfo = () => {
-        switch (status) {
-            case "active":
-                return {
-                    label: "Verified",
-                    color: "bg-green-100 text-green-800 border-green-300",
-                    icon: "✓",
-                    tooltip: "This location has been verified and is currently active"
-                };
-            case "unverified":
-                return {
-                    label: "Unverified",
-                    color: "bg-yellow-100 text-yellow-800 border-yellow-300",
-                    icon: "○",
-                    tooltip: "This location has not been verified yet. Information may be outdated."
-                };
-            case "reported_closed":
-                return {
-                    label: "Reported Closed",
-                    color: "bg-red-100 text-red-800 border-red-300",
-                    icon: "✕",
-                    tooltip: "This location has been reported as closed. Please verify before visiting."
-                };
+        // Closed takes precedence
+        if (status === "reported_closed") {
+            return {
+                label: "Reported Closed",
+                color: "bg-red-100 text-red-800 border-red-300",
+                icon: "✕",
+                tooltip: "This location has been reported as closed. Please verify before visiting."
+            };
         }
+
+        // Verification Levels
+        if (level === "verified") {
+            return {
+                label: "Verified",
+                color: "bg-green-100 text-green-800 border-green-300",
+                icon: "✓",
+                tooltip: "This location has been verified by independent sources."
+            };
+        }
+
+        if (level === "user-reported") {
+            return {
+                label: "User Reported",
+                color: "bg-blue-100 text-blue-800 border-blue-300",
+                icon: "👤",
+                tooltip: "Reported by a user but not fully verified."
+            };
+        }
+
+        // Fallback or explicit unverified
+        return {
+            label: "Unverified",
+            color: "bg-yellow-100 text-yellow-800 border-yellow-300",
+            icon: "○",
+            tooltip: "This location has not been verified yet. Information may be outdated."
+        };
     };
 
     const sizeClasses = {

@@ -60,6 +60,7 @@ export default function LocationDetail({
                         <div className="flex items-center justify-between">
                             <TrustBadge
                                 status={location.status}
+                                level={location.verificationLevel}
                                 verifiedAt={location.verifiedAt}
                                 size="md"
                             />

@@ -14,7 +14,8 @@
         "data:scrape:sgnursingrooms": "tsx scripts/scrape-sgnursingrooms.ts",
         "data:scrape:momspumphere": "tsx scripts/scrape-momspumphere.ts",
         "data:scrape:nparks": "tsx scripts/scrape-nparks.ts",
-        "data:merge": "tsx scripts/merge-candidates.ts"
+        "data:merge": "tsx scripts/merge-candidates.ts",
+        "maintenance:check-links": "tsx scripts/maintenance/check-links.ts"
     },
     "dependencies": {
         "cheerio": "^1.2.0",

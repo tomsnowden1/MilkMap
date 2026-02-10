@@ -37,31 +37,55 @@ export default function SourceInfo({ sources, compact = false }: SourceInfoProps
     return (
         <div className="space-y-2">
             <p className="text-sm font-medium text-gray-700">
-                {sources.length === 1 ? "Source" : "Sources"}:
+                {sources.length === 1 ? "Source" : "Sources"}
             </p>
             <ul className="space-y-1.5">
-                {sources.map((source, index) => (
-                    <li key={index} className="text-sm">
-                        {source.url ? (
-                            <a
-                                href={source.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1"
-                            >
-                                <span>{source.name}</span>
-                                <span className="text-xs">↗</span>
-                            </a>
-                        ) : (
-                            <span className="text-gray-700">{source.name}</span>
-                        )}
-                        {source.extractedAt && (
-                            <span className="text-xs text-gray-500 ml-2">
-                                ({new Date(source.extractedAt).toLocaleDateString()})
-                            </span>
-                        )}
-                    </li>
-                ))}
+                {sources
+                    .sort((a, b) => {
+                        // Sort live sources first
+                        const aLive = !a.httpStatus || (a.httpStatus >= 200 && a.httpStatus < 300);
+                        const bLive = !b.httpStatus || (b.httpStatus >= 200 && b.httpStatus < 300);
+                        return aLive === bLive ? 0 : aLive ? -1 : 1;
+                    })
+                    .map((source, index) => {
+                        const isDead = source.httpStatus && source.httpStatus >= 400;
+                        const isLive = source.httpStatus && source.httpStatus >= 200 && source.httpStatus < 300;
+
+                        return (
+                            <li key={source.id || index} className="text-sm flex items-center justify-between group">
+                                <div className="flex items-center gap-2 overflow-hidden">
+                                    {/* Status Indicator */}
+                                    {isLive && <span className="text-green-500 text-xs" title="Link active">●</span>}
+                                    {isDead && <span className="text-red-500 text-xs" title="Link potentially broken">●</span>}
+                                    {!source.httpStatus && <span className="text-gray-300 text-xs" title="Not checked">●</span>}
+
+                                    {source.url ? (
+                                        <a
+                                            href={source.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className={`truncate hover:underline inline-flex items-center gap-1
+                                                ${isDead ? "text-gray-400 line-through decoration-gray-400" : "text-blue-600 hover:text-blue-800"}
+                                            `}
+                                        >
+                                            <span className="truncate">{source.name}</span>
+                                            {!isDead && <span className="text-xs">↗</span>}
+                                        </a>
+                                    ) : (
+                                        <span className="text-gray-700 truncate">{source.name}</span>
+                                    )}
+                                </div>
+                                <div className="flex-shrink-0 flex items-center gap-2 text-xs text-gray-400">
+                                    {isDead && <span className="text-red-500 bg-red-50 px-1.5 rounded">Dead Link</span>}
+                                    {source.lastChecked && (
+                                        <span className="hidden group-hover:inline">
+                                            Checked {new Date(source.lastChecked).toLocaleDateString()}
+                                        </span>
+                                    )}
+                                </div>
+                            </li>
+                        );
+                    })}
             </ul>
         </div>
     );
