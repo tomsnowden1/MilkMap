@@ -31,6 +31,18 @@ export type LocationStatus = z.infer<typeof LocationStatusSchema>;
 export const VerificationLevelSchema = z.enum(["unverified", "user-reported", "verified"]);
 export type VerificationLevel = z.infer<typeof VerificationLevelSchema>;
 
+// Evidence extracted from a source
+export const EvidenceSchema = z.object({
+    field: z.enum(["floor", "landmark", "hours", "amenities"]),
+    value: z.string().describe("Normalized value"),
+    rawValue: z.string().describe("Original text from source"),
+    sourceId: z.string().uuid().describe("ID of the source this evidence came from"),
+    confidence: z.number().min(0).max(100).default(0),
+    updatedAt: z.string().datetime().describe("ISO timestamp when evidence was extracted"),
+});
+
+export type Evidence = z.infer<typeof EvidenceSchema>;
+
 // Source of information for a location
 export const SourceSchema = z.object({
     id: z.string().uuid().optional().describe("Unique identifier for source"),
@@ -41,6 +53,8 @@ export const SourceSchema = z.object({
     lastChecked: z.string().datetime().optional().describe("ISO timestamp when link was last checked"),
     contentHash: z.string().optional().describe("Hash of content for change detection"),
     extractedAt: z.string().datetime().describe("ISO timestamp when data was extracted from source"),
+    type: z.enum(["evidence", "related"]).default("related").describe("Type of source: evidence (has facts) or related link"),
+    isOfficial: z.boolean().default(false).describe("Is this an official source (e.g. mall website)"),
 });
 
 export type Source = z.infer<typeof SourceSchema>;
@@ -60,6 +74,8 @@ export const LocationSchema = z.object({
     amenities: z.array(AmenitySchema).default([]).describe("Available amenities"),
     cost: z.string().default("free").describe("Cost to use (defaults to 'free')"),
     sources: z.array(SourceSchema).min(1).describe("Sources for this location data"),
+    evidence: z.array(EvidenceSchema).default([]).describe("Facts extracted from sources"),
+    conflicts: z.array(z.string()).default([]).describe("List of fields with conflicting evidence"),
     verifiedAt: z.string().datetime().optional().describe("ISO timestamp when location was last verified"),
     verificationLevel: VerificationLevelSchema.default("unverified").describe("Verification level based on evidence"),
     confidence: z.number().min(0).max(100).default(50).describe("Confidence score (0-100)"),

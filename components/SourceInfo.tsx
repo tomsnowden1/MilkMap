@@ -6,87 +6,116 @@ interface SourceInfoProps {
 }
 
 export default function SourceInfo({ sources, compact = false }: SourceInfoProps) {
-    if (!sources || sources.length === 0) {
+    if (!sources || !Array.isArray(sources) || sources.length === 0) {
         return <span className="text-sm text-gray-500 italic">No source information</span>;
     }
 
-    if (compact && sources.length > 0) {
-        const firstSource = sources[0];
+    const activeSources = sources.filter(s => {
+        // Hide dead sources unless in debug/dev mode? 
+        // Requirement: "if a source becomes 404 later, hide the link and mark stale"
+        if (s.httpStatus && s.httpStatus >= 400) return false;
+        return true;
+    });
+
+    const evidenceSources = activeSources.filter(s => s.type === "evidence" || s.isOfficial);
+    const relatedLinks = activeSources.filter(s => s.type !== "evidence" && !s.isOfficial);
+
+    if (activeSources.length === 0) {
+        return <span className="text-sm text-gray-500 italic">No active sources</span>;
+    }
+
+    if (compact) {
+        // Compact view: Just show count or first official
+        const primary = evidenceSources[0] || relatedLinks[0];
         return (
             <div className="text-sm text-gray-600">
                 <span className="font-medium">Source:</span>{" "}
-                {firstSource.url ? (
+                {primary.url ? (
                     <a
-                        href={firstSource.url}
+                        href={primary.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 hover:underline"
                     >
-                        {firstSource.name}
+                        {primary.name}
                     </a>
                 ) : (
-                    <span>{firstSource.name}</span>
+                    <span>{primary.name}</span>
                 )}
-                {sources.length > 1 && (
-                    <span className="text-gray-500"> +{sources.length - 1} more</span>
+                {activeSources.length > 1 && (
+                    <span className="text-gray-500"> +{activeSources.length - 1} more</span>
                 )}
             </div>
         );
     }
 
     return (
-        <div className="space-y-2">
-            <p className="text-sm font-medium text-gray-700">
-                {sources.length === 1 ? "Source" : "Sources"}
-            </p>
-            <ul className="space-y-1.5">
-                {sources
-                    .sort((a, b) => {
-                        // Sort live sources first
-                        const aLive = !a.httpStatus || (a.httpStatus >= 200 && a.httpStatus < 300);
-                        const bLive = !b.httpStatus || (b.httpStatus >= 200 && b.httpStatus < 300);
-                        return aLive === bLive ? 0 : aLive ? -1 : 1;
-                    })
-                    .map((source, index) => {
-                        const isDead = source.httpStatus && source.httpStatus >= 400;
-                        const isLive = source.httpStatus && source.httpStatus >= 200 && source.httpStatus < 300;
+        <div className="space-y-4">
+            {evidenceSources.length > 0 && (
+                <div className="space-y-2">
+                    <p className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                        <span>Evidence Verified</span>
+                        <span className="text-green-600 text-xs bg-green-50 px-2 py-0.5 rounded-full">
+                            {evidenceSources.length}
+                        </span>
+                    </p>
+                    <ul className="space-y-1.5">
+                        {evidenceSources.map((source, index) => (
+                            <SourceItem key={source.id || index} source={source} isEvidence />
+                        ))}
+                    </ul>
+                </div>
+            )}
 
-                        return (
-                            <li key={source.id || index} className="text-sm flex items-center justify-between group">
-                                <div className="flex items-center gap-2 overflow-hidden">
-                                    {/* Status Indicator */}
-                                    {isLive && <span className="text-green-500 text-xs" title="Link active">●</span>}
-                                    {isDead && <span className="text-red-500 text-xs" title="Link potentially broken">●</span>}
-                                    {!source.httpStatus && <span className="text-gray-300 text-xs" title="Not checked">●</span>}
-
-                                    {source.url ? (
-                                        <a
-                                            href={source.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className={`truncate hover:underline inline-flex items-center gap-1
-                                                ${isDead ? "text-gray-400 line-through decoration-gray-400" : "text-blue-600 hover:text-blue-800"}
-                                            `}
-                                        >
-                                            <span className="truncate">{source.name}</span>
-                                            {!isDead && <span className="text-xs">↗</span>}
-                                        </a>
-                                    ) : (
-                                        <span className="text-gray-700 truncate">{source.name}</span>
-                                    )}
-                                </div>
-                                <div className="flex-shrink-0 flex items-center gap-2 text-xs text-gray-400">
-                                    {isDead && <span className="text-red-500 bg-red-50 px-1.5 rounded">Dead Link</span>}
-                                    {source.lastChecked && (
-                                        <span className="hidden group-hover:inline">
-                                            Checked {new Date(source.lastChecked).toLocaleDateString()}
-                                        </span>
-                                    )}
-                                </div>
-                            </li>
-                        );
-                    })}
-            </ul>
+            {relatedLinks.length > 0 && (
+                <div className="space-y-2">
+                    <p className="text-sm font-medium text-gray-700">Related Links</p>
+                    <ul className="space-y-1.5">
+                        {relatedLinks.map((source, index) => (
+                            <SourceItem key={source.id || index} source={source} />
+                        ))}
+                    </ul>
+                </div>
+            )}
         </div>
+    );
+}
+
+function SourceItem({ source, isEvidence }: { source: any, isEvidence?: boolean }) {
+    const isOfficial = source.isOfficial;
+
+    return (
+        <li className="text-sm flex items-center justify-between group">
+            <div className="flex items-center gap-2 overflow-hidden">
+                {/* Icon */}
+                {isOfficial ? (
+                    <span className="text-blue-500" title="Official Source">🛡️</span>
+                ) : isEvidence ? (
+                    <span className="text-green-500" title="Verified Evidence">✓</span>
+                ) : (
+                    <span className="text-gray-400" title="Related Link">🔗</span>
+                )}
+
+                {source.url ? (
+                    <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="truncate text-blue-600 hover:text-blue-800 hover:underline"
+                    >
+                        <span className="truncate">{source.name}</span>
+                        <span className="text-xs ml-1">↗</span>
+                    </a>
+                ) : (
+                    <span className="text-gray-700 truncate">{source.name}</span>
+                )}
+            </div>
+
+            {source.lastChecked && (
+                <span className="text-xs text-gray-400 hidden group-hover:inline">
+                    {new Date(source.lastChecked).toLocaleDateString()}
+                </span>
+            )}
+        </li>
     );
 }

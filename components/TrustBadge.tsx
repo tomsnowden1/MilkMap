@@ -4,6 +4,7 @@ interface TrustBadgeProps {
     status?: Location["status"];
     level?: Location["verificationLevel"];
     verifiedAt?: string;
+    hasConflicts?: boolean;
     size?: "sm" | "md" | "lg";
     showTooltip?: boolean;
 }
@@ -12,6 +13,7 @@ export default function TrustBadge({
     status,
     level,
     verifiedAt,
+    hasConflicts,
     size = "md",
     showTooltip = true
 }: TrustBadgeProps) {
@@ -23,6 +25,16 @@ export default function TrustBadge({
                 color: "bg-red-100 text-red-800 border-red-300",
                 icon: "✕",
                 tooltip: "This location has been reported as closed. Please verify before visiting."
+            };
+        }
+
+        // Conflict takes precedence over verification
+        if (hasConflicts) {
+            return {
+                label: "Data Conflict",
+                color: "bg-orange-100 text-orange-800 border-orange-300",
+                icon: "⚠️",
+                tooltip: "Sources disagree on key details (e.g., floor). Please review carefully."
             };
         }
 

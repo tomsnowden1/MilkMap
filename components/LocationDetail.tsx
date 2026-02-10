@@ -62,6 +62,7 @@ export default function LocationDetail({
                                 status={location.status}
                                 level={location.verificationLevel}
                                 verifiedAt={location.verifiedAt}
+                                hasConflicts={location.conflicts && location.conflicts.length > 0}
                                 size="md"
                             />
                             <span className="text-sm text-gray-600">

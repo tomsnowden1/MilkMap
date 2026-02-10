@@ -15,7 +15,8 @@
         "data:scrape:momspumphere": "tsx scripts/scrape-momspumphere.ts",
         "data:scrape:nparks": "tsx scripts/scrape-nparks.ts",
         "data:merge": "tsx scripts/merge-candidates.ts",
-        "maintenance:check-links": "tsx scripts/maintenance/check-links.ts"
+        "maintenance:check-links": "tsx scripts/maintenance/check-links.ts",
+        "data:export-venues": "node scripts/data/export-venues.mjs"
     },
     "dependencies": {
         "cheerio": "^1.2.0",
