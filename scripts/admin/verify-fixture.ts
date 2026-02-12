@@ -14,7 +14,8 @@ async function main() {
     const data: LocationsData = JSON.parse(rawData);
 
     // Find or create i12 Katong
-    let katongIndex = data.locations.findIndex(l => l.venueName.includes("i12 Katong"));
+    // Find or create i12 Katong
+    let katongIndex = data.locations.findIndex(l => l.venueName?.includes("i12 Katong"));
 
     if (katongIndex === -1) {
         console.log("Creating new i12 Katong record...");

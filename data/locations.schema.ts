@@ -48,6 +48,7 @@ export const SourceSchema = z.object({
     id: z.string().uuid().optional().describe("Unique identifier for source"),
     name: z.string().describe("Source name (e.g., 'Official Website', 'User Submission')"),
     url: z.union([z.string().url(), z.literal("")]).describe("Original URL where this information was found"),
+    evidenceDeepLinkUrl: z.string().url().optional().describe("Deep-link URL that scrolls/highlights the evidence on the page"),
     urlResolved: z.string().url().optional().describe("Resolved URL after redirects"),
     httpStatus: z.number().int().optional().describe("Last known HTTP status code"),
     lastChecked: z.string().datetime().optional().describe("ISO timestamp when link was last checked"),
@@ -58,6 +59,17 @@ export const SourceSchema = z.object({
 });
 
 export type Source = z.infer<typeof SourceSchema>;
+
+// Individual nursing room within a venue
+export const RoomSchema = z.object({
+    id: z.string().describe("Stable room identifier (e.g., 'ps-l2')"),
+    floor: z.string().describe("Floor level (e.g., 'Level 2', 'B2')"),
+    landmark: z.string().optional().describe("Landmark or directions to this room"),
+    hours: z.string().optional().describe("Operating hours if different from venue"),
+    amenities: z.array(AmenitySchema).optional().describe("Room-specific amenities (inherits venue if absent)"),
+});
+
+export type Room = z.infer<typeof RoomSchema>;
 
 // Main location schema
 export const LocationSchema = z.object({
@@ -72,6 +84,7 @@ export const LocationSchema = z.object({
     landmark: z.string().optional().describe("Nearby landmark or directions"),
     hours: z.string().optional().describe("Operating hours if different from venue"),
     amenities: z.array(AmenitySchema).default([]).describe("Available amenities"),
+    rooms: z.array(RoomSchema).optional().describe("Multiple nursing rooms at this venue"),
     cost: z.string().default("free").describe("Cost to use (defaults to 'free')"),
     sources: z.array(SourceSchema).min(1).describe("Sources for this location data"),
     evidence: z.array(EvidenceSchema).default([]).describe("Facts extracted from sources"),

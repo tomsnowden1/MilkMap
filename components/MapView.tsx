@@ -25,42 +25,63 @@ export default function MapView({
     // Initialize map once on mount
     useEffect(() => {
         if (typeof window === "undefined") return;
+        let isMounted = true;
+
         if (mapRef.current) return; // Already initialized
 
         const initMap = async () => {
             try {
+                if (!isMounted) return;
                 setMapLoading(true);
                 setMapError(null);
 
                 const L = (await import("leaflet")).default;
 
-                if (mapContainerRef.current) {
+                if (!isMounted) return;
+
+                if (mapContainerRef.current && !mapRef.current) {
                     // Singapore center coordinates
-                    mapRef.current = L.map(mapContainerRef.current).setView(
+                    const mapInstance = L.map(mapContainerRef.current).setView(
                         [1.3521, 103.8198],
                         12
                     );
+
+                    mapRef.current = mapInstance;
 
                     // Add OpenStreetMap tiles with proper attribution
                     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                         attribution:
                             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
                         maxZoom: 19,
-                    }).addTo(mapRef.current);
+                    }).addTo(mapInstance);
 
                     // Create a layer group for markers
-                    markersLayerRef.current = L.layerGroup().addTo(mapRef.current);
+                    markersLayerRef.current = L.layerGroup().addTo(mapInstance);
 
-                    setMapLoading(false);
+                    if (isMounted) {
+                        setMapLoading(false);
+                    }
                 }
             } catch (error) {
                 console.error("Map initialization error:", error);
-                setMapError("Failed to load map. Please refresh the page.");
-                setMapLoading(false);
+                if (isMounted) {
+                    setMapError("Failed to load map. Please refresh the page.");
+                    setMapLoading(false);
+                }
             }
         };
 
         initMap();
+
+        // Cleanup
+        return () => {
+            isMounted = false;
+            if (mapRef.current) {
+                mapRef.current.remove();
+                mapRef.current = null;
+                markersLayerRef.current = null;
+            }
+        };
     }, []); // Only run once on mount
 
     // Update markers when locations change
@@ -120,14 +141,17 @@ export default function MapView({
             if (userMarkerRef.current) {
                 userMarkerRef.current.setLatLng([userLocation.lat, userLocation.lng]);
             } else {
-                // Create a blue pulsing dot for user location
+                // Create a Google Maps-style blue puck
                 const userIcon = L.divIcon({
                     className: "user-location-marker",
-                    html: `<div class="w-4 h-4 bg-blue-500 rounded-full border-2 border-white shadow-lg relative">
-                            <div class="absolute -inset-2 bg-blue-500 rounded-full opacity-30 animate-ping"></div>
-                           </div>`,
-                    iconSize: [16, 16],
-                    iconAnchor: [8, 8],
+                    html: `
+                        <div class="relative flex items-center justify-center w-6 h-6">
+                            <div class="absolute w-12 h-12 bg-blue-500 rounded-full opacity-20 animate-ping"></div>
+                            <div class="absolute w-6 h-6 bg-blue-500 rounded-full border-2 border-white shadow-lg ring-1 ring-black/10"></div>
+                        </div>
+                    `,
+                    iconSize: [24, 24],
+                    iconAnchor: [12, 12],
                 });
 
                 userMarkerRef.current = L.marker([userLocation.lat, userLocation.lng], {

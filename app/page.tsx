@@ -20,6 +20,8 @@ export default function HomePage() {
     const [showAddForm, setShowAddForm] = useState(false);
     const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
     const [isLocating, setIsLocating] = useState(false);
+    const [sortMode, setSortMode] = useState<"default" | "distance">("default");
+    const [locationError, setLocationError] = useState<string | null>(null);
 
     // Normalize data before validation to prevent crashes
     const raw = locationsDataRaw as any;
@@ -67,11 +69,12 @@ export default function HomePage() {
     // Handle "Near Me" click
     const handleNearMe = () => {
         if (!navigator.geolocation) {
-            alert("Geolocation is not supported by your browser");
+            setLocationError("Geolocation is not supported by your browser");
             return;
         }
 
         setIsLocating(true);
+        setLocationError(null);
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 setUserLocation({
@@ -79,15 +82,30 @@ export default function HomePage() {
                     lng: position.coords.longitude,
                 });
                 setIsLocating(false);
-                // Clear search query to show all nearby locations
+                setSortMode("distance");
                 setSearchQuery("");
             },
             (error) => {
                 console.error("Error getting location:", error);
-                alert("Unable to retrieve your location");
                 setIsLocating(false);
-            }
+                if (error.code === error.PERMISSION_DENIED) {
+                    setLocationError("Location permission denied. Please enable it in your browser settings.");
+                } else if (error.code === error.TIMEOUT) {
+                    setLocationError("Location request timed out. Try again.");
+                } else {
+                    setLocationError("Unable to retrieve your location.");
+                }
+            },
+            { timeout: 10000 }
         );
+    };
+
+    // Handle sort change
+    const handleSortChange = (mode: "default" | "distance") => {
+        setSortMode(mode);
+        if (mode === "distance" && !userLocation) {
+            handleNearMe();
+        }
     };
 
     // Filtered locations based on search and amenity filters
@@ -107,9 +125,9 @@ export default function HomePage() {
             return matchesSearch && matchesAmenities;
         });
 
-        // Sort by distance if user location is available
-        if (userLocation) {
-            filtered = filtered.sort((a, b) => {
+        // Sort by distance only when explicitly selected and location available
+        if (sortMode === "distance" && userLocation) {
+            filtered = [...filtered].sort((a, b) => {
                 const distA = calculateDistance(
                     userLocation.lat,
                     userLocation.lng,
@@ -127,7 +145,7 @@ export default function HomePage() {
         }
 
         return filtered;
-    }, [allLocations, searchQuery, selectedAmenities, userLocation]);
+    }, [allLocations, searchQuery, selectedAmenities, userLocation, sortMode]);
 
     return (
         <div className="h-screen w-full relative overflow-hidden flex flex-col md:flex-row">
@@ -189,6 +207,11 @@ export default function HomePage() {
                         onLocationSelect={setSelectedLocation}
                         selectedLocation={selectedLocation}
                         userLocation={userLocation}
+                        sortMode={sortMode}
+                        onSortChange={handleSortChange}
+                        isLocating={isLocating}
+                        locationError={locationError}
+                        onRetryLocation={handleNearMe}
                     />
 
                     {/* Add Room Button (Desktop - Floating in Sidebar) */}
@@ -221,6 +244,11 @@ export default function HomePage() {
                         onLocationSelect={setSelectedLocation}
                         selectedLocation={selectedLocation}
                         userLocation={userLocation}
+                        sortMode={sortMode}
+                        onSortChange={handleSortChange}
+                        isLocating={isLocating}
+                        locationError={locationError}
+                        onRetryLocation={handleNearMe}
                     />
                 </div>
             </div>

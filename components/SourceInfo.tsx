@@ -83,6 +83,8 @@ export default function SourceInfo({ sources, compact = false }: SourceInfoProps
 
 function SourceItem({ source, isEvidence }: { source: any, isEvidence?: boolean }) {
     const isOfficial = source.isOfficial;
+    // Use deep-link URL for evidence sources when available
+    const linkUrl = (isEvidence && source.evidenceDeepLinkUrl) || source.url;
 
     return (
         <li className="text-sm flex items-center justify-between group">
@@ -96,9 +98,9 @@ function SourceItem({ source, isEvidence }: { source: any, isEvidence?: boolean 
                     <span className="text-gray-400" title="Related Link">🔗</span>
                 )}
 
-                {source.url ? (
+                {linkUrl ? (
                     <a
-                        href={source.url}
+                        href={linkUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="truncate text-blue-600 hover:text-blue-800 hover:underline"

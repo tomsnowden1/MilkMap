@@ -1,0 +1,36 @@
+{
+  "scanned": 170,
+  "added": 2,
+  "by_operator": {
+    "Capitaland Malls": {
+      "attempted": 0,
+      "found": 0,
+      "blocked": 0
+    },
+    "Frasers Property": {
+      "attempted": 36,
+      "found": 0,
+      "blocked": 0
+    },
+    "Far East Malls": {
+      "attempted": 0,
+      "found": 0,
+      "blocked": 0
+    },
+    "Link REIT": {
+      "attempted": 0,
+      "found": 0,
+      "blocked": 0
+    },
+    "Mapletree (VivoCity)": {
+      "attempted": 2,
+      "found": 2,
+      "blocked": 0
+    },
+    "Generic": {
+      "attempted": 5,
+      "found": 0,
+      "blocked": 0
+    }
+  }
+}
