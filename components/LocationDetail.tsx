@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Location } from "@/data/locations.schema";
 import { AMENITY_LABELS, AMENITY_ICONS } from "./FilterChips";
 import FeedbackButtons from "./FeedbackButtons";
@@ -17,6 +18,28 @@ export default function LocationDetail({
     onClose,
 }: LocationDetailProps) {
     const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${location.lat},${location.lng}`;
+    const rooms = location.rooms;
+    const hasMultipleRooms = rooms && rooms.length > 1;
+    const [selectedRoomIndex, setSelectedRoomIndex] = useState(0);
+
+    // Get display values: from selected room or legacy flat fields
+    const selectedRoom = rooms?.[selectedRoomIndex];
+    const displayFloor = selectedRoom?.floor ?? location.floor;
+    const displayLandmark = selectedRoom?.landmark ?? location.landmark;
+    const displayHours = selectedRoom?.hours ?? location.hours;
+    const displayAmenities = selectedRoom?.amenities ?? location.amenities;
+
+    // Build room labels (disambiguate duplicate floors)
+    const getRoomLabel = (index: number): string => {
+        if (!rooms) return "";
+        const room = rooms[index];
+        const sameFloor = rooms.filter(r => r.floor === room.floor);
+        if (sameFloor.length > 1) {
+            const subIndex = rooms.slice(0, index + 1).filter(r => r.floor === room.floor).length;
+            return `${room.floor} (${subIndex})`;
+        }
+        return room.floor;
+    };
 
     return (
         <>
@@ -64,6 +87,8 @@ export default function LocationDetail({
                                 verifiedAt={location.verifiedAt}
                                 hasConflicts={location.conflicts && location.conflicts.length > 0}
                                 size="md"
+                                placement="bottom"
+                                alignment="left"
                             />
                             <span className="text-sm text-gray-600">
                                 Confidence: {location.confidence}%
@@ -76,6 +101,29 @@ export default function LocationDetail({
                         )}
                     </div>
 
+                    {/* Room Selector (multi-room only) */}
+                    {hasMultipleRooms && (
+                        <div className="mb-4">
+                            <h3 className="text-sm font-semibold text-gray-700 mb-2">
+                                Nursing Rooms ({rooms.length})
+                            </h3>
+                            <div className="flex flex-wrap gap-1.5">
+                                {rooms.map((room, index) => (
+                                    <button
+                                        key={room.id}
+                                        onClick={() => setSelectedRoomIndex(index)}
+                                        className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${index === selectedRoomIndex
+                                            ? "bg-blue-600 text-white border-blue-600"
+                                            : "bg-white text-gray-700 border-gray-300 hover:border-blue-400"
+                                            }`}
+                                    >
+                                        {getRoomLabel(index)}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
                     {/* Details */}
                     <div className="space-y-3 mb-6">
                         {location.addressText && (
@@ -85,26 +133,26 @@ export default function LocationDetail({
                             </div>
                         )}
 
-                        {location.floor && (
+                        {displayFloor && (
                             <div>
                                 <h3 className="text-sm font-semibold text-gray-700">Floor</h3>
-                                <p className="text-gray-900">{location.floor}</p>
+                                <p className="text-gray-900">{displayFloor}</p>
                             </div>
                         )}
 
-                        {location.landmark && (
+                        {displayLandmark && (
                             <div>
                                 <h3 className="text-sm font-semibold text-gray-700">
                                     Landmark / Directions
                                 </h3>
-                                <p className="text-gray-900">{location.landmark}</p>
+                                <p className="text-gray-900">{displayLandmark}</p>
                             </div>
                         )}
 
-                        {location.hours && (
+                        {displayHours && (
                             <div>
                                 <h3 className="text-sm font-semibold text-gray-700">Hours</h3>
-                                <p className="text-gray-900">{location.hours}</p>
+                                <p className="text-gray-900">{displayHours}</p>
                             </div>
                         )}
 
@@ -113,8 +161,8 @@ export default function LocationDetail({
                                 Amenities
                             </h3>
                             <div className="flex flex-wrap gap-2">
-                                {location.amenities.length > 0 ? (
-                                    location.amenities.map((amenity) => (
+                                {displayAmenities.length > 0 ? (
+                                    displayAmenities.map((amenity) => (
                                         <span
                                             key={amenity}
                                             className="inline-flex items-center gap-1 bg-gray-100 text-gray-800 px-3 py-1.5 rounded-lg text-sm"

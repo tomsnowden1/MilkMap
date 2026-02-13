@@ -8,6 +8,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
+        "test": "vitest run",
         "data:validate": "tsx scripts/validate-data.ts",
         "data:collect": "tsx scripts/data-collection/run.ts",
         "data:scrape:all": "npm run data:scrape:sgnursingrooms && npm run data:scrape:momspumphere && npm run data:scrape:nparks",
@@ -16,7 +17,11 @@
         "data:scrape:nparks": "tsx scripts/scrape-nparks.ts",
         "data:merge": "tsx scripts/merge-candidates.ts",
         "maintenance:check-links": "tsx scripts/maintenance/check-links.ts",
-        "data:export-venues": "node scripts/data/export-venues.mjs"
+        "data:export-venues": "node scripts/data/export-venues.mjs",
+        "data:import-evidence-map": "tsx scripts/data/import-evidence-map.ts",
+        "data:find-official-evidence": "tsx scripts/data/find-official-evidence.ts",
+        "data:find-official-evidence:browser": "tsx scripts/data/find-official-evidence.ts --browser",
+        "data:reverify": "tsx scripts/data/reverify-all.ts"
     },
     "dependencies": {
         "cheerio": "^1.2.0",
@@ -25,6 +30,7 @@
         "leaflet": "^1.9.4",
         "next": "14.2.20",
         "node-fetch": "^2.7.0",
+        "playwright": "^1.58.2",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-leaflet": "^4.2.1",
@@ -43,6 +49,7 @@
         "postcss": "^8.4.49",
         "tailwindcss": "^3.4.17",
         "tsx": "^4.21.0",
-        "typescript": "^5.7.2"
+        "typescript": "^5.7.2",
+        "vitest": "^4.0.18"
     }
 }

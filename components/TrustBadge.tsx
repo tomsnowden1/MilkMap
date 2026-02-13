@@ -7,6 +7,8 @@ interface TrustBadgeProps {
     hasConflicts?: boolean;
     size?: "sm" | "md" | "lg";
     showTooltip?: boolean;
+    placement?: "top" | "bottom";
+    alignment?: "left" | "center" | "right";
 }
 
 export default function TrustBadge({
@@ -15,7 +17,9 @@ export default function TrustBadge({
     verifiedAt,
     hasConflicts,
     size = "md",
-    showTooltip = true
+    showTooltip = true,
+    placement = "top",
+    alignment = "center"
 }: TrustBadgeProps) {
     const getStatusInfo = () => {
         // Closed takes precedence
@@ -44,7 +48,7 @@ export default function TrustBadge({
                 label: "Verified",
                 color: "bg-green-100 text-green-800 border-green-300",
                 icon: "✓",
-                tooltip: "This location has been verified by independent sources."
+                tooltip: "Verified by official sources or multiple trusted directories."
             };
         }
 
@@ -74,6 +78,23 @@ export default function TrustBadge({
 
     const info = getStatusInfo();
 
+    // Horizontal alignment classes
+    const getAlignmentClasses = () => {
+        switch (alignment) {
+            case "left": return "left-0";
+            case "right": return "right-0";
+            default: return "left-1/2 -translate-x-1/2";
+        }
+    };
+
+    const getArrowAlignmentClasses = () => {
+        switch (alignment) {
+            case "left": return "left-4";
+            case "right": return "right-4";
+            default: return "left-1/2 -translate-x-1/2";
+        }
+    };
+
     return (
         <div className="relative inline-block group">
             <span
@@ -86,8 +107,11 @@ export default function TrustBadge({
 
             {/* Tooltip on hover (desktop) */}
             {showTooltip && (
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block z-50 w-64">
-                    <div className="bg-gray-900 text-white text-xs rounded-lg px-3 py-2 shadow-lg">
+                <div
+                    className={`absolute ${getAlignmentClasses()} mb-2 hidden group-hover:block z-50 w-64 ${placement === "top" ? "bottom-full mb-2" : "top-full mt-2"
+                        }`}
+                >
+                    <div className="bg-gray-900 text-white text-xs rounded-lg px-3 py-2 shadow-lg text-left">
                         {info.tooltip}
                         {verifiedAt && status === "active" && (
                             <div className="mt-1 text-gray-300">
@@ -95,8 +119,10 @@ export default function TrustBadge({
                             </div>
                         )}
                         {/* Arrow */}
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-px">
-                            <div className="border-4 border-transparent border-t-gray-900"></div>
+                        <div className={`absolute ${getArrowAlignmentClasses()} -mt-px ${placement === "top" ? "top-full border-t-gray-900 border-b-0" : "bottom-full border-b-gray-900 border-t-0"
+                            }`}>
+                            <div className={`border-4 border-transparent ${placement === "top" ? "border-t-gray-900" : "border-b-gray-900"
+                                }`}></div>
                         </div>
                     </div>
                 </div>

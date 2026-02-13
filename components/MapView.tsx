@@ -25,42 +25,73 @@ export default function MapView({
     // Initialize map once on mount
     useEffect(() => {
         if (typeof window === "undefined") return;
-        if (mapRef.current) return; // Already initialized
+
+        let isMounted = true;
 
         const initMap = async () => {
             try {
+                if (!isMounted) return;
+
                 setMapLoading(true);
                 setMapError(null);
 
                 const L = (await import("leaflet")).default;
 
+                if (!isMounted) return;
+                if (mapRef.current) return; // Already initialized
+
                 if (mapContainerRef.current) {
+                    // If container is already initialized by another instance (rare race condition), abort
+                    if ((mapContainerRef.current as any)._leaflet_id) {
+                        return;
+                    }
+
                     // Singapore center coordinates
-                    mapRef.current = L.map(mapContainerRef.current).setView(
+                    const mapInstance = L.map(mapContainerRef.current).setView(
                         [1.3521, 103.8198],
                         12
                     );
+
+                    mapRef.current = mapInstance;
 
                     // Add OpenStreetMap tiles with proper attribution
                     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                         attribution:
                             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
                         maxZoom: 19,
-                    }).addTo(mapRef.current);
+                    }).addTo(mapInstance);
 
-                    // Create a layer group for markers
-                    markersLayerRef.current = L.layerGroup().addTo(mapRef.current);
+                    const mapInstanceRef = mapRef.current;
+                    markersLayerRef.current = L.layerGroup().addTo(mapInstanceRef);
 
-                    setMapLoading(false);
+                    // Expose L to window for other effects
+                    (window as any).L = L;
+
+                    if (isMounted) {
+                        setMapLoading(false);
+                    }
                 }
             } catch (error) {
                 console.error("Map initialization error:", error);
-                setMapError("Failed to load map. Please refresh the page.");
-                setMapLoading(false);
+                if (isMounted) {
+                    setMapError("Failed to load map. Please refresh the page.");
+                    setMapLoading(false);
+                }
             }
         };
 
-        initMap();
+        if (!mapRef.current) {
+            initMap();
+        }
+
+        // Cleanup: destroy map instance on unmount
+        return () => {
+            isMounted = false;
+            if (mapRef.current) {
+                mapRef.current.remove();
+                mapRef.current = null;
+            }
+        };
     }, []); // Only run once on mount
 
     // Update markers when locations change
@@ -120,14 +151,17 @@ export default function MapView({
             if (userMarkerRef.current) {
                 userMarkerRef.current.setLatLng([userLocation.lat, userLocation.lng]);
             } else {
-                // Create a blue pulsing dot for user location
+                // Create a Google Maps-style blue puck
                 const userIcon = L.divIcon({
                     className: "user-location-marker",
-                    html: `<div class="w-4 h-4 bg-blue-500 rounded-full border-2 border-white shadow-lg relative">
-                            <div class="absolute -inset-2 bg-blue-500 rounded-full opacity-30 animate-ping"></div>
-                           </div>`,
-                    iconSize: [16, 16],
-                    iconAnchor: [8, 8],
+                    html: `
+                        <div class="relative flex items-center justify-center w-6 h-6">
+                            <div class="absolute w-12 h-12 bg-blue-500 rounded-full opacity-20 animate-ping"></div>
+                            <div class="absolute w-6 h-6 bg-blue-500 rounded-full border-2 border-white shadow-lg ring-1 ring-black/10"></div>
+                        </div>
+                    `,
+                    iconSize: [24, 24],
+                    iconAnchor: [12, 12],
                 });
 
                 userMarkerRef.current = L.marker([userLocation.lat, userLocation.lng], {

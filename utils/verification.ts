@@ -38,13 +38,95 @@ export function normalizeFloor(input: string): string {
 }
 
 /**
- * Calculate confidence score for a specific field based on evidence
- * - Official source: +50
- * - Verified directory: +30
- * - User submission/other: +10
- * - Max 100
+ * Calculate confidence score and determine verification tier
+ */
+export function recalculateVerification(location: Location): Location {
+    const activeSources = location.sources.filter(isSourceActive);
+    const evidence = location.evidence || [];
+    const conflicts: string[] = [];
+
+    // 1. Conflict Detection (Floor)
+    const floorValues = new Set<string>();
+    evidence.filter(e => e.field === "floor").forEach(e => {
+        const norm = normalizeFloor(e.value);
+        if (norm) floorValues.add(norm);
+    });
+
+    // Check legacy floor if no evidence
+    if (floorValues.size === 0 && location.floor) {
+        const norm = normalizeFloor(location.floor);
+        if (norm) floorValues.add(norm);
+    }
+
+    if (floorValues.size > 1) {
+        conflicts.push("floor");
+    }
+
+    // 2. Evidence Tiers Analysis
+    // Tier A: Official sources (e.g. mall website)
+    const tierASources = activeSources.filter(s => s.isOfficial);
+
+    // Tier B: Strong Evidence Directories (e.g. specialized nursing room maps)
+    const tierBSources = activeSources.filter(s => !s.isOfficial && s.type === "evidence");
+
+    // Tier C: General/User mentions
+    const tierCSources = activeSources.filter(s => !s.isOfficial && s.type !== "evidence");
+
+    // 3. Calculate Confidence Score (0-100)
+    let score = 0;
+
+    // Base score from sources
+    score += (tierASources.length * 50); // Official is huge trust
+    score += (tierBSources.length * 30); // Directories are trusted
+    score += (tierCSources.length * 10); // Mentions count for a little
+
+    // Penalize conflicts
+    if (conflicts.length > 0) {
+        score -= 20;
+    }
+
+    // Cap at 100
+    score = Math.min(Math.max(score, 0), 100);
+
+    // 4. Determine Verification Level
+    // STRICT rules:
+    // - Verified: (1+ Tier A) OR (2+ Tier B) AND No Conflicts
+    let level: VerificationLevel = "unverified";
+
+    const hasTierA = tierASources.length > 0;
+    const hasStrongTierB = tierBSources.length >= 2;
+    // const hasEnoughTierC = tierCSources.length >= 4; // Maybe later
+
+    if (conflicts.length === 0) {
+        if (hasTierA) {
+            level = "verified";
+        } else if (hasStrongTierB) {
+            level = "verified";
+        } else if (activeSources.length > 0) {
+            level = "user-reported";
+        }
+    } else {
+        // Conflicts exist -> cannot be fully verified without human review
+        level = "user-reported";
+    }
+
+    // Special case: If score is very high (>80) but we have minor conflicts, maybe still 'user-reported'
+    // For now, simple logic is fine.
+
+    return {
+        ...location,
+        verificationLevel: level,
+        confidence: score,
+        conflicts: conflicts,
+    };
+}
+
+/**
+ * Calculate field confidence (Updated for Tiers)
  */
 export function calculateFieldConfidence(field: string, evidences: Evidence[], sources: Source[]): number {
+    // Re-use logic or simplify since we now have global confidence
+    // For now, let's keep it consistent with the global scoring weights
     const fieldEvidence = evidences.filter(e => e.field === field);
     if (fieldEvidence.length === 0) return 0;
 
@@ -53,87 +135,17 @@ export function calculateFieldConfidence(field: string, evidences: Evidence[], s
 
     for (const ev of fieldEvidence) {
         if (!ev.sourceId || contributingSources.has(ev.sourceId)) continue;
-
         const source = sources.find(s => s.id === ev.sourceId);
         if (!source || !isSourceActive(source)) continue;
 
         contributingSources.add(ev.sourceId);
 
-        if (source.isOfficial) score += 50;
-        else if (source.type === "evidence") score += 30; // Strong evidence link
-        else score += 10;
+        if (source.isOfficial) score += 50;       // Tier A
+        else if (source.type === "evidence") score += 30; // Tier B
+        else score += 10;                         // Tier C
     }
 
     return Math.min(score, 100);
-}
-
-/**
- * Recalculate verification details for a location
- * Returns updated Location object with new verificationLevel, confidence, and conflicts
- */
-export function recalculateVerification(location: Location): Location {
-    const activeSources = location.sources.filter(isSourceActive);
-    const evidence = location.evidence || [];
-    const conflicts: string[] = [];
-
-    // 1. Check for conflicts in key fields (Floor)
-    // Group evidence by field
-    const floorValues = new Set<string>();
-
-    evidence.filter(e => e.field === "floor").forEach(e => {
-        const norm = normalizeFloor(e.value);
-        if (norm) floorValues.add(norm);
-    });
-
-    // Also check current location value if no evidence for it yet (legacy data)
-    if (floorValues.size === 0 && location.floor) {
-        const norm = normalizeFloor(location.floor);
-        if (norm) floorValues.add(norm);
-    }
-
-    // If >1 distinct floor values from *reliable* sources, flag conflict
-    // (Simple version: any disagreement is a conflict for now, human review needed)
-    if (floorValues.size > 1) {
-        conflicts.push("floor");
-    }
-
-    // 2. Calculate aggregation confidence
-    // Overall confidence is average of available fields or base score
-    let totalScore = 0;
-    let scoredFields = 0;
-
-    const floorScore = calculateFieldConfidence("floor", evidence, location.sources);
-    if (floorScore > 0) { totalScore += floorScore; scoredFields++; }
-
-    // If no specific field evidence, use source count proxy (legacy compat)
-    if (scoredFields === 0) {
-        totalScore = Math.min(activeSources.length * 25, 50); // Cap at 50 without field evidence
-    } else {
-        totalScore = totalScore / scoredFields; // Average of fields
-    }
-
-    // 3. Determine Verification Level
-    // Rule: ≥2 independent active sources -> verified
-    // AND NO conflicts
-    let level: VerificationLevel = "unverified";
-
-    if (activeSources.length >= 2 && conflicts.length === 0) {
-        // Boost strictness: Must have explicit evidence if sources > 2?
-        // For now, keep source count rule but ensure no conflicts
-        level = "verified";
-    } else if (activeSources.length > 0) {
-        level = "user-reported";
-    }
-
-    return {
-        ...location,
-        verificationLevel: level,
-        confidence: Math.round(totalScore),
-        conflicts: conflicts,
-        // Update fields if we have a "winner" logic? 
-        // For now, we don't auto-update fields, just status. 
-        // We let humans resolve conflicts listed in `conflicts`.
-    };
 }
 
 export function hasConflicts(location: Location): boolean {
