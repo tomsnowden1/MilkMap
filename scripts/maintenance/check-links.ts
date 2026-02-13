@@ -4,7 +4,7 @@ import path from "path";
 import fetch from "node-fetch";
 import crypto from "crypto";
 import { Location, LocationsData } from "../../data/locations.schema";
-import { calculateVerificationLevel } from "../../utils/verification";
+import { recalculateVerification } from "../../utils/verification";
 
 const LOCATIONS_FILE = path.resolve(process.cwd(), "data/locations.json");
 const RATE_LIMIT_MS = 500; // 500ms delay between requests
@@ -85,8 +85,15 @@ async function main() {
                 locationChanged = true;
             }
 
+            // Ensure type exists
+            if (!source.type) {
+                source.type = "related";
+                locationChanged = true;
+            }
+
             // Check URL
-            // Skip if recently checked? (Optional optimization, skipping for now to force check)
+            // Skip if recently checked? (Optional optimization)
+            // For now, always check to ensure freshness
             await sleep(RATE_LIMIT_MS);
 
             const result = await checkUrl(source.url);
@@ -116,11 +123,17 @@ async function main() {
             }
         }
 
-        // Recalculate verification level
-        const newLevel = calculateVerificationLevel(location);
-        if (location.verificationLevel !== newLevel) {
-            console.log(`⚠️  Verification level changed for ${location.venueName}: ${location.verificationLevel} -> ${newLevel}`);
-            location.verificationLevel = newLevel;
+        // Recalculate verification level using enhanced logic
+        const updatedLoc = recalculateVerification(location as any); // Cast because of TS strictness if types differ slightly in runtime
+
+        if (location.verificationLevel !== updatedLoc.verificationLevel ||
+            location.confidence !== updatedLoc.confidence ||
+            JSON.stringify(location.conflicts) !== JSON.stringify(updatedLoc.conflicts)) {
+
+            console.log(`⚠️  Status update for ${location.venueName}: ${location.verificationLevel} -> ${updatedLoc.verificationLevel}`);
+            location.verificationLevel = updatedLoc.verificationLevel;
+            location.confidence = updatedLoc.confidence;
+            location.conflicts = updatedLoc.conflicts;
             locationChanged = true;
         }
 

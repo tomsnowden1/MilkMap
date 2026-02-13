@@ -1,0 +1,204 @@
+venue_name,postal_code,address,evidence_url_1,evidence_type_1,extracted_hints_1,evidence_url_2,evidence_type_2,extracted_hints_2,confidence_recommendation
+313@Somerset,238895,"313 Orchard Road, Singapore, 238895",https://www.littledayout.com/313somerset-nursing-room/,directory,Review page includes nursing room details (floor/landmark to extract).,https://www.momspumphere.com/places/place/details/3658_313-somerset-mall-breastfeeding-rooms,directory,Directory page with LOCATION/HOURS blocks (use as corroboration).,medium
+321 Clementi,129905,"321 Clementi Avenue 3, 129905",https://www.momspumphere.com/places/place/details/3701_321-clementi-singapore-breastfeeding-room,directory,LOCATION: Level 2 near restrooms and Saizeriya; HOURS: 10AM–10PM (from directory page).,,,,medium
+888 Plaza,730888,"888 Woodlands Drive 50, Singapore, 730888",,,,,,,missing
+Adventure Cove Waterpark,98269,"8 Sentosa Gateway, Singapore, 098269",https://www.rwsentosa.com/en/guide-to-fun/family-friendly-facilities-in-rws,official,Official family facilities guide; corroborate with riders guide PDF if needed.,,,,high
+Alexandra Central,159971,"321 Alexandra Road, 159971",,,,,,,missing
+AMK Hub,569933,"53 Ang Mo Kio Avenue 3, Singapore, 569933",https://sg.linkreit.com/malls/amk-hub/mall-info/about-mall/,official,Official mall info page mentions nursing and baby room (extract floor/landmark).,,,,high
+AMK Hub,569933,"53 Ang Mo Kio Ave 3, 569933",https://sg.linkreit.com/malls/amk-hub/mall-info/about-mall/,official,Official mall info page mentions nursing and baby room (extract floor/landmark).,,,,high
+Anchorpoint Shopping Centre,159953,"370 Alexandra Road, 159953",,,,,,,missing
+Anchorvale Community Club,544964,"59 Anchorvale Road, Singapore, 544964",,,,,,,missing
+Ang Mo Kio MRT Station,569811,"2450 Ang Mo Kio Ave 8, 569811",,,,,,,missing
+Ang Mo Kio Polyclinic,569666,"21 Ang Mo Kio Central 2, 569666",,,,,,,missing
+ArtScience Museum,18974,"6 Bayfront Avenue, Singapore, 018974",,,,,,,missing
+Asian Civilisations Museum,179555,"1 Empress Place, Singapore, 179555",https://www.nhb.gov.sg/acm/visit/plan-your-visit,official,"Official visitor info mentions nursing room placement (e.g., family-friendly washroom with hot water dispenser).",https://www.momspumphere.com/places/place/details/3750_asian-civilizations-museum-nursing-room-singapore,directory,Directory page with LOCATION/HOURS blocks (use as corroboration).,high
+Beauty World Centre,588177,"144 Upper Bukit Timah Road, 588177",,,,,,,missing
+Beauty World Plaza,588996,"1 Jalan Anak Bukit, 588996",,,,,,,missing
+Bedok Mall,467360,"311 New Upper Changi Road, Singapore, 467360",https://www.momspumphere.com/places/place/details/3730_bedok-mall-breastfeeding-room-singapore,directory,Directory page indicates B1 (verify during extraction).,,,,medium
+Bedok MRT Station,467364,"315 New Upper Changi Road, 467364",,,,,,,missing
+Bedok Polyclinic,460212,"212 Bedok North Street 1, Singapore, 460212",,,,,,,missing
+Bedok Public Library,469662,"11 Bedok North Street 1, 469662",,,,,,,missing
+Big Box,608521,"1 Venture Avenue, Singapore, 608521",,,,,,,missing
+Bird Paradise,729825,"20 Mandai Lake Road, Singapore, 729825",,,,,,,missing
+Bishan Community Club,579799,"51 Bishan Street 13, 579799",,,,,,,missing
+Bishan MRT Station,579827,"200 Bishan Road, Singapore, 579827",,,,,,,missing
+Bishan-Ang Mo Kio Park,569930,"1380 Ang Mo Kio Ave 1, 569930",,,,,,,missing
+Boon Lay MRT Station,648886,"1 Jurong West Central 2, 648886",,,,,,,missing
+Buangkok Square,530991,"991 Buangkok Link, Singapore, 530991",,,,,,,missing
+Bugis Junction,188021,"200 Victoria Street, Singapore, 188021",,,,,,,missing
+Bugis MRT Station,188024,"230 Victoria Street, 188024",,,,,,,missing
+Bukit Batok Polyclinic,659164,"50 Bukit Batok West Ave 3, 659164",,,,,,,missing
+Bukit Panjang MRT Station,677743,"1 Jelebu Road, 677743",,,,,,,missing
+Bukit Panjang Plaza,677743,"1 Jelebu Road, Singapore, 677743",,,,,,,missing
+Bukit Timah Plaza,588996,"1 Jalan Anak Bukit, 588996",,,,,,,missing
+Canberra Plaza,750133,"133 Canberra View, Singapore, 750133",,,,,,,missing
+Causeway Point,738099,"1 Woodlands Square, Singapore, 738099",,,,,,,missing
+Central Public Library,188064,"100 Victoria Street, Singapore, 188064",,,,,,,missing
+Century Square,529509,"2 Tampines Central 5, Singapore, 529509",,,,,,,missing
+Changi Airport Terminal 1,819642,"80 Airport Boulevard, Singapore, 819642",https://www.changiairport.com/en/at-changi/facilities-and-services-directory/changi-airport-baby-care-rooms-nursing-and-changing-facilities.html,official,Official facilities directory lists baby care rooms by terminal/level/landmark (see page).,,,,high
+Changi Airport Terminal 2,819643,"60 Airport Boulevard, Singapore, 819643",https://www.changiairport.com/en/at-changi/facilities-and-services-directory/changi-airport-baby-care-rooms-nursing-and-changing-facilities.html,official,Official facilities directory lists baby care rooms by terminal/level/landmark (see page).,,,,high
+Changi Airport Terminal 3,819663,"65 Airport Boulevard, Singapore, 819663",https://www.changiairport.com/en/at-changi/facilities-and-services-directory/changi-airport-baby-care-rooms-nursing-and-changing-facilities.html,official,Official facilities directory lists baby care rooms by terminal/level/landmark (see page).,,,,high
+Changi Airport Terminal 4,819665,"10 Airport Boulevard, Singapore, 819665",https://www.changiairport.com/en/at-changi/facilities-and-services-directory/changi-airport-baby-care-rooms-nursing-and-changing-facilities.html,official,Official facilities directory lists baby care rooms by terminal/level/landmark (see page).,,,,high
+Changi City Point,486038,"5 Changi Business Park Central 1, Singapore, 486038",https://www.momspumphere.com/places/place/details/1572_changi-city-point-singapore,directory,Directory page with explicit LOCATION/HOURS blocks (verify floors during extraction).,,,,medium
+Changi General Hospital,529889,"2 Simei Street 3, Singapore, 529889",,,,,,,missing
+Chinatown Heritage Centre,59207,"48 Pagoda Street, Singapore, 059207",,,,,,,missing
+Chinatown Point,59413,"133 New Bridge Road, Singapore, 059413",,,,,,,missing
+Choa Chu Kang Polyclinic,688846,"2 Teck Whye Lane, 688846",,,,,,,missing
+City Hall MRT Station,189560,"80 Bras Basah Road, 189560",,,,,,,missing
+City Square Mall,208539,"180 Kitchener Road, Singapore, 208539",https://www.citysquaremall.com.sg/about-us/the-mall/amenities/,official,Official amenities page lists nursing room floors next to toilets.,https://www.momspumphere.com/en-gb/places/place/details/3723_city-square-mall-breastfeeding-room-singapore,directory,Directory page indicates additional floors (possible conflict); treat as conflict until resolved.,high
+Civil Defence Heritage Gallery,179367,"62 Hill Street, Singapore, 179367",,,,,,,missing
+Claymore Connect,238879,"442 Orchard Road, Singapore, 238879",,,,,,,missing
+Clementi Polyclinic,129905,"451 Clementi Avenue 3, 129905",,,,,,,missing
+Compass One,545078,"1 Sengkang Square, Singapore, 545078",,,,,,,missing
+Dhoby Ghaut MRT Station,238826,"11 Orchard Road, Singapore, 238826",,,,,,,missing
+Djitsun Mall @ Ang Mo Kio,569933,"53 Ang Mo Kio Ave 3, 569933",,,,,,,missing
+Downtown East,519599,"1 Pasir Ris Close, Singapore, 519599",,,,,,,missing
+E!hub @ Downtown East,519599,"1 Pasir Ris Close, Singapore, 519599",,,,,,,missing
+East Coast Park Area C,449876,"East Coast Park Service Road, 449876",,,,,,,missing
+Eastpoint Mall,528833,"3 Simei Street 6, Singapore, 528833",,,,,,,missing
+Esplanade - Theatres on the Bay,38981,"1 Esplanade Drive, Singapore, 038981",,,,,,,missing
+Farrer Park Hospital,217562,"1 Farrer Park Station Road, Singapore, 217562",,,,,,,missing
+Fort Canning Centre,179620,"5 Cox Terrace, 179620",,,,,,,missing
+Forum The Shopping Mall,238884,"583 Orchard Road, Singapore, 238884",,,,,,,missing
+Funan,179105,"107 North Bridge Road, Singapore, 179105",https://www.momspumphere.com/places/place/details/3671_funan-mall-singapore,directory,Directory page suggests L4 (treat as evidence; corroborate with official later).,,,,medium
+Gardens by the Bay,18953,"18 Marina Gardens Drive, Singapore, 018953",https://www.gardensbythebay.com.sg/en/plan-your-visit/amenities-and-services.html,official,Official amenities page lists Nursing Room locations under Families section.,,,,high
+Geylang Polyclinic,389707,"21 Geylang East Central, 389707",,,,,,,missing
+Goldhill Plaza,308899,"1 Goldhill Plaza, 308899",,,,,,,missing
+Grantral Mall,129958,"9 Clementi West Street 1, Singapore, 129958",,,,,,,missing
+Great World,237994,"1 Kim Seng Promenade, Singapore, 237994",,,,,,,missing
+Great World City,237994,"1 Kim Seng Promenade, 237994",,,,,,,missing
+Greendale Plaza,820298,"298 Punggol Place, Singapore, 820298",,,,,,,missing
+Greenwich V,807011,"1 Seletar Road, Singapore, 807011",,,,,,,missing
+HarbourFront MRT Station,99253,"1 Maritime Square, Singapore, 099253",,,,,,,missing
+Heartland Mall Kovan,530205,"205 Hougang Street 21, Singapore, 530205",,,,,,,missing
+Hillion Mall,678278,"17 Petir Road, 678278",,,,,,,missing
+Holland Road Shopping Centre,278967,"211 Holland Avenue, 278967",,,,,,,missing
+Hougang 1,538692,"1 Hougang Street 91, 538692",,,,,,,missing
+Hougang Mall,538766,"90 Hougang Avenue 10, Singapore, 538766",,,,,,,missing
+Hougang MRT Station,538766,"80 Hougang Ave 10, 538766",,,,,,,missing
+Hougang Polyclinic,538829,"89 Hougang Avenue 4, 538829",,,,,,,missing
+i12 Katong,428802,"112 East Coast Road, Singapore, 428802",https://www.momspumphere.com/places/place/details/3729_i12-katong-breastfeeding-room-singapore,directory,Directory indicates Level 3 and Level 4 (split into two room instances on import).,,,,medium
+IKEA Alexandra,159965,"317 Alexandra Road, Singapore, 159965",,,,,,,missing
+IKEA Tampines,528764,"60 Tampines North Drive 2, Singapore, 528764",,,,,,,missing
+IMM Building,609601,"2 Jurong East Street 21, Singapore, 609601",,,,,,,missing
+Indian Heritage Centre,209924,"5 Campbell Lane, Singapore, 209924",,,,,,,missing
+ION Orchard,238801,"2 Orchard Turn, Singapore, 238801",https://www.momspumphere.com/places/place/details/1931_ion-orchard-mall,directory,Directory page with LOCATION/HOURS blocks (extract floor/landmark/hours).,,,,medium
+Jacob Ballas Children's Garden,259769,"481K Bukit Timah Road, 259769",,,,,,,missing
+JCube,609731,"2 Jurong East Central 1, Singapore, 609731",,,,,,,missing
+JEM,608549,"50 Jurong Gateway Road, Singapore, 608549",,,,,,,missing
+Jewel Changi Airport,819666,"78 Airport Boulevard, Singapore, 819666",https://www.changiairport.com/en/at-changi/facilities-and-services-directory/changi-airport-baby-care-rooms-nursing-and-changing-facilities.html,official,Official facilities directory includes baby care rooms (confirm Jewel-specific entries during extraction).,,,,high
+Junction 10,677899,"1 Woodlands Road, Singapore, 677899",,,,,,,missing
+Junction 8,579837,"9 Bishan Place, Singapore, 579837",,,,,,,missing
+Junction 9,768897,"18 Yishun Avenue 9, 768897",,,,,,,missing
+Jurong East Community Club,609517,"21 Jurong East Street 31, 609517",,,,,,,missing
+Jurong East MRT Station,609690,"10 Jurong East Street 12, Singapore, 609690",,,,,,,missing
+Jurong Lake Gardens,618665,"104 Yuan Ching Road, 618665",,,,,,,missing
+Jurong Point,648886,"1 Jurong West Central 2, Singapore, 648886",,,,,,,missing
+Jurong Polyclinic,609788,"190 Jurong East Avenue 1, Singapore, 609788",,,,,,,missing
+Jurong Regional Library,609732,"21 Jurong East Central 1, 609732",,,,,,,missing
+Katong Shopping Centre,437844,"865 Mountbatten Road, Singapore, 437844",,,,,,,missing
+Khoo Teck Puat Hospital,768828,"90 Yishun Central, Singapore, 768828",,,,,,,missing
+KidZania Singapore,98008,"31 Beach View, Singapore, 098008",,,,,,,missing
+KK Women's and Children's Hospital,229899,"100 Bukit Timah Road, Singapore, 229899",,,,,,,missing
+Lee Kong Chian Natural History Museum,117377,"2 Conservatory Drive, Singapore, 117377",,,,,,,missing
+library@harbourfront,98585,"1 HarbourFront Walk, Singapore, 098585",,,,,,,missing
+library@orchard,238858,"277 Orchard Road, Singapore, 238858",,,,,,,missing
+Lot One Shoppers' Mall,689812,"21 Choa Chu Kang Avenue 4, Singapore, 689812",,,,,,,missing
+Loyang Point,510259,"259 Pasir Ris Street 21, Singapore, 510259",,,,,,,missing
+Malay Heritage Centre,198501,"85 Sultan Gate, Singapore, 198501",,,,,,,missing
+Marina Bay Sands Shoppes,18972,"2 Bayfront Avenue, Singapore, 018972",,,,,,,missing
+Marina Square,39594,"6 Raffles Boulevard, Singapore, 039594",,,,,,,missing
+Marine Parade Polyclinic,440080,"80 Marine Parade Central, 440080",,,,,,,missing
+Millenia Walk,39596,"9 Raffles Boulevard, Singapore, 039596",,,,,,,missing
+Mount Alvernia Hospital,574623,"820 Thomson Road, Singapore, 574623",,,,,,,missing
+National Gallery Singapore,178957,"1 St Andrew's Road, Singapore, 178957",https://www.momspumphere.com/places/place/details/367?4_national-museum-of-singapore,directory,"Directory indicates multiple floors (B1, L2-L5). Use official page later if found.",,,,medium
+National Museum of Singapore,178897,"93 Stamford Road, Singapore, 178897",https://www.nhb.gov.sg/nationalmuseum/plan-your-visit/visitor-information/amenities,official,Official amenities page mentions nursing rooms near toilets on levels (verify per page).,https://www.momspumphere.com/places/place/details/3674_national-museum-of-singapore,directory,Directory page with LOCATION/HOURS blocks (use as corroboration).,high
+National University Hospital,119074,"5 Lower Kent Ridge Road, Singapore, 119074",,,,,,,missing
+Nee Soon Central Community Club,768867,"50 Yishun Avenue 11, 768867",,,,,,,missing
+NEX,556083,"23 Serangoon Central, Singapore, 556083",,,,,,,missing
+Ng Teng Fong General Hospital,609606,"1 Jurong East Street 21, Singapore, 609606",,,,,,,missing
+Ngee Ann City / Takashimaya,238872,"391 Orchard Road, Singapore, 238872",,,,,,,missing
+Night Safari,729826,"80 Mandai Lake Road, Singapore, 729826",,,,,,,missing
+Northpoint City,769098,"930 Yishun Avenue 2, Singapore, 769098",,,,,,,missing
+Oasis Terraces,820681,"681 Punggol Drive, Singapore, 820681",,,,,,,missing
+Orchard Central,238896,"181 Orchard Road, Singapore, 238896",,,,,,,missing
+Orchard MRT Station,238878,"437 Orchard Road, Singapore, 238878",,,,,,,missing
+OrchardGateway,238858,"277 Orchard Road, Singapore, 238858",,,,,,,missing
+Our Tampines Hub,528523,"1 Tampines Walk, Singapore, 528523",,,,,,,missing
+Paragon,238859,"290 Orchard Road, Singapore, 238859",,,,,,,missing
+Parkway East Hospital,427990,"321 Joo Chiat Place, Singapore, 427990",,,,,,,missing
+Parkway Parade,449269,"80 Marine Parade Road, Singapore, 449269",,,,,,,missing
+Pasir Ris Elias Community Club,519502,"93 Pasir Ris Drive 3, 519502",,,,,,,missing
+Pasir Ris MRT Station,519634,"10 Pasir Ris Central, Singapore, 519634",,,,,,,missing
+Pasir Ris Park,519639,"Pasir Ris Central, 519639",,,,,,,missing
+Paya Lebar Quarter,409057,"10 Paya Lebar Road, Singapore, 409057",,,,,,,missing
+People's Park Complex,59108,"1 Park Road, Singapore, 059108",,,,,,,missing
+Peranakan Museum,179941,"39 Armenian Street, Singapore, 179941",,,,,,,missing
+Pioneer Mall,640638,"638 Jurong West Street 61, Singapore, 640638",,,,,,,missing
+Plaza Singapura,238839,"68 Orchard Road, Singapore, 238839",,,,,,,missing
+Punggol MRT Station,828851,"10 Punggol Central, Singapore, 828851",,,,,,,missing
+Punggol Plaza,820168,"168 Punggol Field, Singapore, 820168",,,,,,,missing
+Queenstown Polyclinic,148958,"580 Stirling Road, 148958",,,,,,,missing
+Queensway Shopping Centre,149053,"1 Queensway, 149053",,,,,,,missing
+Raffles City Shopping Centre,179103,"252 North Bridge Road, Singapore, 179103",,,,,,,missing
+Raffles Holland V,278997,"118 Holland Avenue, Singapore, 278997",,,,,,,missing
+Raffles Hospital,188770,"585 North Bridge Road, Singapore, 188770",,,,,,,missing
+Raffles Place MRT Station,48618,"5 Raffles Place, 048618",,,,,,,missing
+River Wonders,729826,"80 Mandai Lake Road, Singapore, 729826",,,,,,,missing
+Rivervale Mall,545082,"11 Rivervale Crescent, Singapore, 545082",,,,,,,missing
+Rivervale Plaza,540118,"118 Rivervale Drive, 540118",,,,,,,missing
+Rochester Mall,138698,"35 Rochester Drive, 138698",,,,,,,missing
+Roxy Square,428769,"50 East Coast Road, Singapore, 428769",,,,,,,missing
+S.E.A. Aquarium,98269,"8 Sentosa Gateway, Singapore, 098269",https://www.rwsentosa.com/en/guide-to-fun/family-friendly-facilities-in-rws,official,Official family facilities guide mentions S.E.A. Aquarium facility near exit/retail store at B1.,,,,high
+Science Centre Singapore,609081,"15 Science Centre Road, Singapore, 609081",,,,,,,missing
+Sengkang General Hospital,544886,"110 Sengkang East Way, Singapore, 544886",,,,,,,missing
+Sengkang MRT Station,545078,"1 Sengkang Square, 545078",,,,,,,missing
+Sengkang Public Library,545078,"1 Sengkang Square, 545078",,,,,,,missing
+Serangoon MRT Station,556083,"1 Serangoon Central, Singapore, 556083",,,,,,,missing
+Shaw Centre,228208,"1 Scotts Road, Singapore, 228208",,,,,,,missing
+Singapore Art Museum,189555,"71 Bras Basah Road, Singapore, 189555",,,,,,,missing
+Singapore Botanic Gardens,259569,"1 Cluny Road, 259569",,,,,,,missing
+Singapore Flyer,39803,"30 Raffles Avenue, Singapore, 039803",,,,,,,missing
+Singapore General Hospital,169608,"Outram Road, Singapore, 169608",https://www.sgh.com.sg/patient-services/visiting-information/amenities,official,Official amenities directory includes Lactation/Nursing Room category with block/floor notes.,,,,high
+Singapore Zoo,729826,"80 Mandai Lake Road, Singapore, 729826",,,,,,,missing
+Snow City Singapore,609433,"21 Jurong Town Hall Road, Singapore, 609433",,,,,,,missing
+Square 2,307506,"10 Sinaran Drive, 307506",,,,,,,missing
+Sun Plaza,757713,"30 Sembawang Drive, Singapore, 757713",,,,,,,missing
+Suntec City,38983,"3 Temasek Boulevard, Singapore, 038983",,,,,,,missing
+Taman Jurong Shopping Centre,610399,"399 Yung Sheng Road, Singapore, 610399",,,,,,,missing
+Tampines 1,529536,"10 Tampines Central 1, Singapore, 529536",,,,,,,missing
+Tampines Community Club,529452,"Tampines Street 11, 529452",,,,,,,missing
+Tampines Mall,529510,"4 Tampines Central 5, Singapore, 529510",,,,,,,missing
+Tampines MRT Station,529538,"20 Tampines Central 1, Singapore, 529538",,,,,,,missing
+Tampines Polyclinic,529203,"1 Tampines Street 41, Singapore, 529203",,,,,,,missing
+Tampines Regional Library,528523,"1 Tampines Walk, Singapore, 528523",,,,,,,missing
+Tanglin Mall,247933,"163 Tanglin Road, Singapore, 247933",,,,,,,missing
+The Clementi Mall,129588,"3155 Commonwealth Avenue West, Singapore, 129588",https://www.momspumphere.com/places/place/details/3701_321-clementi-singapore-breastfeeding-room,directory,Directory may cover Clementi venues; verify exact venue match during extraction.,,,,medium
+The Star Vista,138617,"1 Vista Exchange Green, 138617",,,,,,,missing
+Thomson Medical Centre,307677,"339 Thomson Road, Singapore, 307677",,,,,,,missing
+Tiong Bahru Plaza,168732,"302 Tiong Bahru Road, Singapore, 168732",,,,,,,missing
+Tiong Bahru Plaza,168732,"302 Tiong Bahru Road, 168732",,,,,,,missing
+Toa Payoh HDB Hub,310480,"480 Toa Payoh Lorong 6, 310480",,,,,,,missing
+Toa Payoh Polyclinic,319260,"2003 Lor 8 Toa Payoh, 319260",,,,,,,missing
+Ubi Heartland Mall,389880,"1 Ubi Avenue 1, 389880",,,,,,,missing
+United Square,307591,"101 Thomson Road, 307591",,,,,,,missing
+Universal Studios Singapore,98269,"8 Sentosa Gateway, Singapore, 098269",https://www.rwsentosa.com/en/guide-to-fun/family-friendly-facilities-in-rws,official,Official family facilities guide mentions USS Baby Centre (details to extract).,,,,high
+Velocity @ Novena Square,307683,"238 Thomson Road, 307683",,,,,,,missing
+Vista Point,730548,"548 Woodlands Drive 44, Singapore, 730548",,,,,,,missing
+VivoCity,98585,"1 HarbourFront Walk, Singapore, 098585",,,,,,,missing
+VivoCity,98585,"1 HarbourFront Walk, Singapore, 098585",,,,,,,missing
+Waterway Point,828761,"83 Punggol Central, Singapore, 828761",,,,,,,missing
+West Coast Park,126978,"West Coast Ferry Road, 126978",,,,,,,missing
+West Mall,658713,"1 Bukit Batok Central Link, Singapore, 658713",,,,,,,missing
+Westgate,608532,"3 Gateway Drive, Singapore, 608532",,,,,,,missing
+Wheelock Place,238880,"501 Orchard Road, Singapore, 238880",,,,,,,missing
+White Sands,518457,"1 Pasir Ris Central Street 3, Singapore, 518457",,,,,,,missing
+Wisteria Mall,768698,"598 Yishun Ring Road, 768698",,,,,,,missing
+Woodlands Civic Centre,730900,"900 South Woodlands Drive, Singapore, 730900",,,,,,,missing
+Woodlands Community Club,738526,"1 Woodlands Street 81, 738526",,,,,,,missing
+Woodlands MRT Station,738343,"30 Woodlands Avenue 2, Singapore, 738343",,,,,,,missing
+Woodlands Polyclinic,738579,"10 Woodlands Street 31, Singapore, 738579",,,,,,,missing
+Woodlands Regional Library,730900,"900 South Woodlands Drive, 730900",,,,,,,missing
+Yew Tee Point,689578,"21 Choa Chu Kang North 6, 689578",,,,,,,missing
+Yishun MRT Station,768831,"20 Yishun Central 1, 768831",,,,,,,missing
+Yishun Polyclinic,768898,"2 Yishun Avenue 9, 768898",,,,,,,missing

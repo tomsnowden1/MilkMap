@@ -35,3 +35,4 @@ next-env.d.ts
 
 # data candidates (generated)
 /data/candidates/
+/data/venues_export.csv

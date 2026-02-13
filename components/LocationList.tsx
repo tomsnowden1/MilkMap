@@ -99,6 +99,7 @@ export default function LocationList({
                                                 <TrustBadge
                                                     status={location.status}
                                                     level={location.verificationLevel}
+                                                    hasConflicts={location.conflicts && location.conflicts.length > 0}
                                                     verifiedAt={location.verifiedAt}
                                                     size="sm"
                                                     showTooltip={false}
