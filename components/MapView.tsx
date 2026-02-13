@@ -25,21 +25,27 @@ export default function MapView({
     // Initialize map once on mount
     useEffect(() => {
         if (typeof window === "undefined") return;
-        let isMounted = true;
 
-        if (mapRef.current) return; // Already initialized
+        let isMounted = true;
 
         const initMap = async () => {
             try {
                 if (!isMounted) return;
+
                 setMapLoading(true);
                 setMapError(null);
 
                 const L = (await import("leaflet")).default;
 
                 if (!isMounted) return;
+                if (mapRef.current) return; // Already initialized
 
-                if (mapContainerRef.current && !mapRef.current) {
+                if (mapContainerRef.current) {
+                    // If container is already initialized by another instance (rare race condition), abort
+                    if ((mapContainerRef.current as any)._leaflet_id) {
+                        return;
+                    }
+
                     // Singapore center coordinates
                     const mapInstance = L.map(mapContainerRef.current).setView(
                         [1.3521, 103.8198],
@@ -55,8 +61,11 @@ export default function MapView({
                         maxZoom: 19,
                     }).addTo(mapInstance);
 
-                    // Create a layer group for markers
-                    markersLayerRef.current = L.layerGroup().addTo(mapInstance);
+                    const mapInstanceRef = mapRef.current;
+                    markersLayerRef.current = L.layerGroup().addTo(mapInstanceRef);
+
+                    // Expose L to window for other effects
+                    (window as any).L = L;
 
                     if (isMounted) {
                         setMapLoading(false);
@@ -71,15 +80,16 @@ export default function MapView({
             }
         };
 
-        initMap();
+        if (!mapRef.current) {
+            initMap();
+        }
 
-        // Cleanup
+        // Cleanup: destroy map instance on unmount
         return () => {
             isMounted = false;
             if (mapRef.current) {
                 mapRef.current.remove();
                 mapRef.current = null;
-                markersLayerRef.current = null;
             }
         };
     }, []); // Only run once on mount
